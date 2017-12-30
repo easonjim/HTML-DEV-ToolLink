@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "type": "JSON",
+    "sort": 1,
+    "description": "JSON相关工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "JSON meta",
+        "url": "http://jsonmate.com/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "JSON可视化编辑工具"
+      },
+      {
+        "id": "2",
+        "name": "JSON格式化",
+        "url": "http://tool.oschina.net/codeformat/json",
+        "sort": 2,
+        "target": "_blank",
+        "description": "开源中国-JSON格式化工具"
+      }
+    ]
+  }
+]

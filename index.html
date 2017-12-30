@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML-DEV-ToolLink</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="static/vendor/template/templateengine.js"></script>
+    <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/template" id="template_content">
+        <#
+            function jsonSort(a, b) {
+                return a.sort - b.sort;
+            }
+            data = data.sort(jsonSort);
+            for (var i = 0; i < data.length; i++) {
+                data[i].items = data[i].items.sort(jsonSort);
+            }
+        #>
+        <# for ( var i = 0; i < data.length; i++ ) { #>
+            <div class="classify-title">
+                <span><#=data[i].type#></span>
+                <span>（<#=data[i].description#>）</span>
+            </div>
+            <div class="main-box">
+                <# for ( var j = 0; j < data[i].items.length; j++ ) { #>
+                    <div class="block-box">
+                        <a href="javascript:void(0);" title="<#=data[i].items[j].url#>">
+                            <div class="up-box">
+                                <span class="tit"><#=data[i].items[j].name#></span>
+                                <span class="path">（<#=data[i].items[j].url#>）</span>
+                            </div>
+                        </a>
+                        <a href="<#=data[i].items[j].url#>" title="<#=data[i].items[j].description#>" target="<#=data[i].items[j].target#>">
+                            <div class="down-box"><#=data[i].items[j].description#></div>
+                        </a>
+                    </div>
+                <# } #>
+             </div>
+        <# } #>
+    </script>
+    <script type="application/javascript">
+        $(function () {
+            $.getJSON('datasource.json', function (data) {
+                if (data != null) {
+                    var outhtml = template2_setdata($('#template_content').html(), data);
+                    $('.con-main').html(outhtml);
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+<div class="con-main"></div>
+</body>
+</html>
