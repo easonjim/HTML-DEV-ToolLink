@@ -1,0 +1,29 @@
+.con-main{width:100%;max-width:1204px;margin:0 auto;font-size:12px}
+.con-main .classify-title{width:100%;float:left;height:40px;line-height:40px;font-size:18px;font-weight:700;color:#005580;padding-left:5px;margin-bottom:5px}
+.con-main .classify-title span{height:40px;line-height:40px;float:left;padding:0 0 0 10px}
+.con-main .classify-title span:last-child{margin-left:-10px;font-size:12px;font-weight:400;color:#CCC}
+.con-main .main-box{width:100%;float:left}
+.con-main .main-box .block-box{width:260px;float:left;border:1px solid #CCC;padding:14px;margin:0 5px 15px;border-radius:5px;background-color:#F9F9F9}
+.con-main .main-box .block-box:hover{-webkit-box-shadow:3px 3px 15px;-moz-box-shadow:3px 3px 15px;box-shadow:3px 3px 15px}
+.con-main .block-box a:active,.con-main .block-box a:hover,.con-main .block-box a:link,.con-main .block-box a:visited,.con-main .main-box .block-box a{color:#000;text-decoration:none;display:inline-block;width:100%;margin:0;padding:0}
+.con-main .main-box .block-box .up-box{width:100%;float:left;height:30px;border-bottom:1px solid #DDD;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#CCC}
+.con-main .main-box .block-box .up-box span{height:30px;line-height:30px}
+.con-main .main-box .block-box .up-box .tit{font-weight:700;font-size:14px;color:#000}
+.con-main .main-box .block-box .up-box .path{font-size:12px;font-weight:400;color:#CCC}
+.con-main .main-box .block-box .down-box{width:100%;float:left;height:40px;line-height:20px;padding-top:10px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+
+.con-main .main-box-fg{border-top: 2px solid #009A61; padding-top: 5px;}
+.con-main .main-box ul{width: 100%; float: left; margin: 0; padding: 0;}
+.con-main .main-box ul li{width: 98%; float: left;list-style: none; border-bottom: 1px solid #DDD; padding: 10px 1% 12px;}
+.con-main .main-box ul li:nth-child(even){background-color: #FAFFFF;}
+.con-main .main-box ul li .up-block{width: 100%; float: left; height: 35px; line-height: 35px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.con-main .main-box ul li .up-block .-type{color: #009A61; font-size: 14px; font-weight: bold;}
+.con-main .main-box ul li .up-block .-title{font-size: 16px; font-weight: bold;}
+.con-main .main-box ul li .up-block .-path{font-size: 12px; font-weight: normal; color: #888888;}
+.con-main .main-box ul li .down-block{width: 100%; float: left; line-height: 20px; font-size: 14px; color: #666666;}
+
+.con-main .search-box{width: 460px; height: 40px; line-height: 40px; margin: 40px auto 25px; border: 1px solid #66afe9; border-radius: 5px; overflow: hidden; position: relative;}
+.con-main .search-box .txt-search{width: 380px; border: 0; height: 28px; padding: 6px 0 6px 10px; outline: none; float: left; font-size: 14px; font-weight: bold; color: #999999;}
+.con-main .search-box .go-search{position: absolute; right: 0; top: 0; width: 80px; height: 100%; border: none; border-left: 1px solid #DCDCDC; text-align: center; background-color: #FFFFFF; cursor: pointer; outline: none; color: #525252; font-size: 14px; font-weight: bold;}
+.con-main .search-box .go-search:hover{background-color: #E6E6E6;}
+.con-main .search-box .close-del{ font-size: 22px; font-weight: bold; line-height: 1; color: #F5F5F2; text-shadow: 0 1px 1px #000000;  opacity: 0.8; filter: alpha(opacity=80); padding: 0; cursor: pointer; background: transparent; border: 0; margin-top: 2px; float: right; position: absolute; right: 90px; top: 5px; text-decoration: none; display: none;}

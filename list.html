@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML-DEV-ToolLink</title>
+    <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="static/vendor/template/templateengine.js"></script>
+    <link rel="stylesheet" href="static/css/index.css">
+    <script type="text/template" id="template_content">
+        <#
+            function jsonSort(a, b) {
+                return a.sort - b.sort;
+            }
+            data = data.sort(jsonSort);
+            for (var i = 0; i < data.length; i++) {
+                data[i].items = data[i].items.sort(jsonSort);
+            }
+        #>
+        <ul>
+        <# for ( var i = 0; i < data.length; i++ ) { #>
+            <# for ( var j = 0; j < data[i].items.length; j++ ) { #>
+            <a href="<#=data[i].items[j].url#>" target="<#=data[i].items[j].target?data[i].items[j].target:'_blank'#>">
+            <li>
+                <div class="up-block">
+                    <span class="-type">[&nbsp;<#=data[i].type#>&nbsp;]</span>
+                    <span class="-title"><#=data[i].items[j].name#></span>
+                    <span class="-path">（<#=data[i].items[j].url#>）</span>
+                </div>
+                <div class="down-block">
+                    <#=data[i].items[j].description#>
+                </div>
+            </li>
+            <# } #>
+            </a>
+        <# } #>
+        </ul>
+    </script>
+</head>
+<body>
+    <div class="con-main">
+        <div class="search-box">
+            <input type="text" placeholder="请输入关键字" class="txt-search" id="searchKey" onkeyup="javascript:initClear();" autofocus="autofocus" />
+            <a href="javascript:void(0);" onclick="javascript:clearSearch();" class="close-del">×</a>
+            <button class="go-search" onclick="javascript:goSearch();">搜索</button>
+        </div>
+        <div class="main-box"></div>
+    </div>
+</body>
+</html>

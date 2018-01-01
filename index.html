@@ -3,9 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>HTML-DEV-ToolLink</title>
-    <link rel="stylesheet" href="static/css/index.css">
-    <script src="static/vendor/template/templateengine.js"></script>
     <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="static/vendor/template/templateengine.js"></script>
+    <link rel="stylesheet" href="static/css/index.css">
     <script type="text/template" id="template_content">
         <#
             function jsonSort(a, b) {
@@ -26,7 +27,7 @@
                     <div class="block-box">
                         <a href="javascript:void(0);" title="<#=data[i].items[j].url#>">
                             <div class="up-box">
-                                <span class="tit"><#=data[i].items[j].name#></span>
+                                1<#=data[i].items[j].name#></span>
                                 <span class="path">（<#=data[i].items[j].url#>）</span>
                             </div>
                         </a>
@@ -38,18 +39,15 @@
              </div>
         <# } #>
     </script>
-    <script type="application/javascript">
-        $(function () {
-            $.getJSON('datasource.json', function (data) {
-                if (data != null) {
-                    var outhtml = template2_setdata($('#template_content').html(), data);
-                    $('.con-main').html(outhtml);
-                }
-            })
-        });
-    </script>
 </head>
 <body>
-<div class="con-main"></div>
+    <div class="con-main">
+        <div class="search-box">
+            <input type="text" placeholder="请输入关键字" class="txt-search" id="searchKey" onkeyup="javascript:initClear();" autofocus="autofocus" />
+            <a href="javascript:void(0);" onclick="javascript:clearSearch();" class="close-del">×</a>
+            <button class="go-search" onclick="javascript:goSearch();">搜索</button>
+        </div>
+        <div class="main-box"></div>
+    </div>
 </body>
 </html>
