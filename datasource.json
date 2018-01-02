@@ -48,9 +48,121 @@
     ]
   },
   {
-    "id": "2",
+    "id": "3",
+    "type": "Search",
+    "sort": 3,
+    "description": "各大搜索引擎",
+    "items": [
+      {
+        "id": "1",
+        "name": "Google HK",
+        "url": "https://www.google.com.hk/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "Google HK"
+      },
+      {
+        "id": "2",
+        "name": "Google UK",
+        "url": "https://www.google.co.uk/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "Google UK"
+      },
+      {
+        "id": "3",
+        "name": "Google JP",
+        "url": "https://www.google.co.jp/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "Google JP（这个搜索效果比较好）"
+      },
+      {
+        "id": "4",
+        "name": "Google TW",
+        "url": "https://www.google.com.tw/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "Google TW（这个搜索效果也不错）"
+      },
+      {
+        "id": "5",
+        "name": "Baidu",
+        "url": "https://www.baidu.com/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "百度"
+      },
+      {
+        "id": "6",
+        "name": "ishadowsocks",
+        "url": "http://isx.yt/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "shadowsocks"
+      },
+      {
+        "id": "7",
+        "name": "shadowsocks8",
+        "url": "http://ss8.pm/",
+        "sort": 7,
+        "target": "_blank",
+        "description": "shadowsocks"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "type": "百科",
+    "sort": 4,
+    "description": "在线百科工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "维基百科",
+        "url": "https://www.wikipedia.org/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "维基百科"
+      },
+      {
+        "id": "2",
+        "name": "百度百科",
+        "url": "https://baike.baidu.com/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "百度百科"
+      },
+      {
+        "id": "3",
+        "name": "互动百科",
+        "url": "http://www.baike.com/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "互动百科"
+      },
+      {
+        "id": "3",
+        "name": "搜狗百科",
+        "url": "http://baike.sogou.com/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "搜狗百科"
+      },
+      {
+        "id": "4",
+        "name": "360百科",
+        "url": "https://baike.so.com/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "360百科"
+      }
+    ]
+  },
+  {
+    "id": "5",
     "type": "JSON",
-    "sort": 2,
+    "sort": 5,
     "description": "JSON相关工具",
     "items": [
       {
