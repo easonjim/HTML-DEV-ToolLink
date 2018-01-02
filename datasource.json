@@ -208,9 +208,65 @@
     ]
   },
   {
-    "id": "6",
+    "id": "7",
+    "type": "博客技术文章搜索",
+    "sort": 7,
+    "description": "各大博客的技术博文文章搜索",
+    "items": [
+      {
+        "id": "1",
+        "name": "CSDN Blog",
+        "url": "https://so.csdn.net/so/search/s.do",
+        "sort": 1,
+        "target": "_blank",
+        "description": "CSDN Blog"
+      },
+      {
+        "id": "2",
+        "name": "博客园-找找看",
+        "url": "http://zzk.cnblogs.com/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "博客园-找找看"
+      },
+      {
+        "id": "3",
+        "name": "GitHub-Search",
+        "url": "https://github.com/search",
+        "sort": 3,
+        "target": "_blank",
+        "description": "GitHub-Search"
+      },
+      {
+        "id": "4",
+        "name": "GitBook-Search",
+        "url": "https://www.gitbook.com/search",
+        "sort": 4,
+        "target": "_blank",
+        "description": "GitBook-Search"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "type": "宽带测试工具",
+    "sort": 8,
+    "description": "家庭宽带测试工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "SpeedTest",
+        "url": "http://www.speedtest.net/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "SpeedTest（兼容全网的宽带测试工具，主要是服务器节点多）"
+      }
+    ]
+  },
+  {
+    "id": "9",
     "type": "JSON",
-    "sort": 6,
+    "sort": 9,
     "description": "JSON相关工具",
     "items": [
       {
