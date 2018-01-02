@@ -22,8 +22,8 @@
 .con-main .main-box ul li .up-block .-path{font-size: 12px; font-weight: normal; color: #888888;}
 .con-main .main-box ul li .down-block{width: 100%; float: left; line-height: 20px; font-size: 14px; color: #666666;}
 
-.con-main .search-box{max-width: 460px; min-width: 320px; width: 100%; height: 40px; line-height: 40px; margin: 40px auto 25px; border: 1px solid #66afe9; border-radius: 5px; overflow: hidden; position: relative;}
+.con-main .search-box{max-width: 460px; min-width: 320px; width: 100%; height: 40px; line-height: 40px; margin: 40px auto 25px; border: 2px solid #66afe9; border-radius: 5px; overflow: hidden; position: relative;}
 .con-main .search-box .txt-search{max-width: 380px; min-width: 240px; width: 100%; border: 0; height: 28px; padding: 6px 0 6px 10px; outline: none; float: left; font-size: 14px; font-weight: bold; color: #999999;}
-.con-main .search-box .go-search{position: absolute; right: 0; top: 0; width: 80px; height: 100%; border: none; border-left: 1px solid #DCDCDC; text-align: center; background-color: #FFFFFF; cursor: pointer; outline: none; color: #525252; font-size: 14px; font-weight: bold;}
+.con-main .search-box .go-search{position: absolute; right: 0; top: 0; width: 80px; height: 100%; border: none; border-left: 2px solid #BDBDBD; text-align: center; background-color: #FFFFFF; cursor: pointer; outline: none; color: #525252; font-size: 14px; font-weight: bold;}
 .con-main .search-box .go-search:hover{background-color: #E6E6E6;}
 .con-main .search-box .close-del{ font-size: 22px; font-weight: bold; line-height: 1; color: #F5F5F2; text-shadow: 0 1px 1px #000000;  opacity: 0.8; filter: alpha(opacity=80); padding: 0; cursor: pointer; background: transparent; border: 0; margin-top: 2px; float: right; position: absolute; right: 90px; top: 5px; text-decoration: none; display: none;}

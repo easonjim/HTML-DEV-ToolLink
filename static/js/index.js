@@ -49,16 +49,30 @@ function goSearch(){
 function getSearch(data, kw){
     for(var i in data){
         var newItems = new Array();
-        if(!data[i]){
+        var jData = data[i];
+        if(!jData){
             continue;
         }
-        var items = data[i].items;
+        var items = jData.items;
         for(var j in items){
             var item = items[j];
             if(!item){
                 continue;
             }
-            if((item.name.toLowerCase()).indexOf(kw.toLowerCase()) >-1){
+            if((jData.type.toLowerCase()).indexOf(kw.toLowerCase()) >-1){
+                //匹配分类名称
+                newItems.push(item);
+            } else if((jData.description.toLowerCase()).indexOf(kw.toLowerCase()) >-1){
+                //匹配分类详情
+                newItems.push(item);
+            } else if((item.name.toLowerCase()).indexOf(kw.toLowerCase()) >-1){
+                //匹配名称
+                newItems.push(item);
+            } else if((item.url.toLowerCase()).indexOf(kw.toLowerCase()) >-1){
+                //匹配链接地址
+                newItems.push(item);
+            } else if((item.description.toLowerCase()).indexOf(kw.toLowerCase()) >-1){
+                //匹配详情
                 newItems.push(item);
             }
         }
