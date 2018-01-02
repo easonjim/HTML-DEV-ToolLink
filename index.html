@@ -2,6 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>HTML-DEV-ToolLink</title>
     <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
     <script src="static/js/index.js"></script>
@@ -27,7 +30,7 @@
                     <div class="block-box">
                         <a href="javascript:void(0);" title="<#=data[i].items[j].url#>">
                             <div class="up-box">
-                                1<#=data[i].items[j].name#></span>
+                                <span class="tit"><#=data[i].items[j].name#></span>
                                 <span class="path">（<#=data[i].items[j].url#>）</span>
                             </div>
                         </a>
@@ -43,7 +46,7 @@
 <body>
     <div class="con-main">
         <div class="search-box">
-            <input type="text" placeholder="请输入关键字" class="txt-search" id="searchKey" onkeyup="javascript:initClear();" autofocus="autofocus" />
+            <input type="text" placeholder="请输入关键字" class="txt-search" id="searchKey" autofocus="autofocus" />
             <a href="javascript:void(0);" onclick="javascript:clearSearch();" class="close-del">×</a>
             <button class="go-search" onclick="javascript:goSearch();">搜索</button>
         </div>

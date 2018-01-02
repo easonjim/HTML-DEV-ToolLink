@@ -12,11 +12,16 @@ $(function () {
         }
     });
 
-    $(document).keydown(function(event){
+    $(document).keyup(function(event){
         var kw = document.getElementById("searchKey").value;
         if(kw && kw!= null && kw!="null") {
             if (event.keyCode == 13) {
                 goSearch();
+            }
+        }
+        if(!kw || kw== null || kw=="null"){
+            if (event.keyCode == 8) {
+                window.location.href = "index.html";
             }
         }
     });
@@ -26,13 +31,6 @@ function getUrlParam(name){
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]); return null;
-}
-
-function initClear(){
-    var kw = document.getElementById("searchKey").value;
-    if(!kw || kw== null || kw=="null"){
-        window.location.href = "index.html";
-    }
 }
 
 function clearSearch(){
