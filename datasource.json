@@ -161,8 +161,56 @@
   },
   {
     "id": "5",
-    "type": "JSON",
+    "type": "Linux Command",
     "sort": 5,
+    "description": "Linux在线命令",
+    "items": [
+      {
+        "id": "1",
+        "name": "Linux命令大全",
+        "url": "http://man.linuxde.net/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "Linux命令大全"
+      },
+      {
+        "id": "2",
+        "name": "菜鸟-Linux命令大全",
+        "url": "http://www.runoob.com/linux/linux-command-manual.html",
+        "sort": 2,
+        "target": "_blank",
+        "description": "菜鸟-Linux命令大全"
+      },
+      {
+        "id": "3",
+        "name": "Linux-Command",
+        "url": "https://jaywcjlove.github.io/linux-command/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "和linuxde的内容差不多，不过这个以后会越来越丰富"
+      },
+      {
+        "id": "4",
+        "name": "Linux-Command",
+        "url": "https://linux.cn/topic-commands.html",
+        "sort": 4,
+        "target": "_blank",
+        "description": "Linux命令大全"
+      },
+      {
+        "id": "5",
+        "name": "Linux命令大全",
+        "url": "http://www.nginx.cn/docs/command.html",
+        "sort": 5,
+        "target": "_blank",
+        "description": "Linux命令大全"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "type": "JSON",
+    "sort": 6,
     "description": "JSON相关工具",
     "items": [
       {
