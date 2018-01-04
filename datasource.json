@@ -374,5 +374,693 @@
         "description": "在线JSON转yaml,yaml转JSON-BeJSON.com"
       }
     ]
+  },
+  {
+    "id": "10",
+    "type": "编码/加密",
+    "sort": 10,
+    "description": "编码/加密工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "Base64编码、解码",
+        "url": "https://www.bejson.com/enc/base64/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "Base64加密、解密"
+      },
+      {
+        "id": "2",
+        "name": "MD5加密",
+        "url": "https://www.bejson.com/enc/md5/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "md5加密、解密"
+      },
+      {
+        "id": "3",
+        "name": "MD5解密",
+        "url": "https://somd5.com/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "MD5在线免费破解,支持md5,sha1,mysql,sha256,sha512,md4,织梦,vBulletin,Discuz,md5(Joomla),mssql(2012),ntlm,md5(base64),sha1(base64),md5(wordpress),md5(Phpbb3),md5(Unix),des(Unix)等数十种加密方式"
+      },
+      {
+        "id": "4",
+        "name": "DES,AES等对称加密解密",
+        "url": "https://www.bejson.com/enc/aesdes/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "AES加密,DES加密,RC4加密,Rabbit加密,TripleDes加密"
+      },
+      {
+        "id": "5",
+        "name": "SHA加密",
+        "url": "https://www.bejson.com/enc/sha/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "SHA加密"
+      },
+      {
+        "id": "6",
+        "name": "Escape编码",
+        "url": "https://www.bejson.com/enc/escape/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "escape加密、解密"
+      },
+      {
+        "id": "7",
+        "name": "URL编码",
+        "url": "https://www.bejson.com/enc/urlencode/",
+        "sort": 7,
+        "target": "_blank",
+        "description": "在线url网址编码、解码"
+      },
+      {
+        "id": "8",
+        "name": "Javascript Eval加密解密",
+        "url": "https://www.bejson.com/enc/eval_package/",
+        "sort": 8,
+        "target": "_blank",
+        "description": "evalPackage解密、解密"
+      },
+      {
+        "id": "9",
+        "name": "摩斯密码加密解密",
+        "url": "https://www.bejson.com/enc/morse/",
+        "sort": 9,
+        "target": "_blank",
+        "description": "在线摩斯密码加密,摩斯密码解密"
+      },
+      {
+        "id": "10",
+        "name": "unicode中文互转",
+        "url": "https://www.bejson.com/convert/unicode_chinese/",
+        "sort": 10,
+        "target": "_blank",
+        "description": "在线unicode转中文,中文转unicode"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "type": "格式化",
+    "sort": 11,
+    "description": "格式化工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "Javascript/HTML压缩、格式化",
+        "url": "https://www.bejson.com/jshtml_format/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "可以对JS，HTML，混合HTML和JS进行格式化排版，整齐的进行显示。可以对JS进行加密，加密压缩。"
+      },
+      {
+        "id": "2",
+        "name": "CSS压缩、格式化",
+        "url": "https://www.bejson.com/otherformat/css/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "可以对Jcss进行格式化排版，整齐的进行显示。可以对css进行加密，加密压缩。"
+      },
+      {
+        "id": "3",
+        "name": "XML压缩、格式化",
+        "url": "https://www.bejson.com/otherformat/xml/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "可以对JXML进行格式化排版，整齐的进行显示。可以对XML进行加密，加密压缩。"
+      },
+      {
+        "id": "4",
+        "name": "SQL压缩、格式化",
+        "url": "https://www.bejson.com/otherformat/sql/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "可以对JSQL进行格式化排版，整齐的进行显示。可以对SQL进行加密，加密压缩。"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "type": "网络",
+    "sort": 12,
+    "description": "网络工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "模拟HTTP请求工具",
+        "url": "https://www.bejson.com/othertools/profession_request_tools/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "模拟发送HTTP协议的POST或GET请求,支持设置各项参数"
+      },
+      {
+        "id": "2",
+        "name": "在线模拟websocket请求工具",
+        "url": "https://www.bejson.com/httputil/websocket/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "在线模拟websocket请求工具"
+      },
+      {
+        "id": "3",
+        "name": "获取你的IP",
+        "url": "https://www.bejson.com/httputil/getip/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "获取您的IP"
+      },
+      {
+        "id": "4",
+        "name": "获取IP信息",
+        "url": "https://www.bejson.com/httputil/queryip/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "在线查询IP工具(最全信息)"
+      },
+      {
+        "id": "5",
+        "name": "IP定位周边信息",
+        "url": "https://www.bejson.com/httputil/ip2addr/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "在线根据IP定位IP所在位置及周边"
+      },
+      {
+        "id": "6",
+        "name": "获取您的浏览器信息",
+        "url": "https://www.bejson.com/httputil/clientinfo/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "在线获取客户端系统及浏览器信息"
+      },
+      {
+        "id": "7",
+        "name": "常用USER_AGENT",
+        "url": "https://www.bejson.com/httputil/useragent/",
+        "sort": 7,
+        "target": "_blank",
+        "description": "整理时下流行的浏览器User-Agent大全"
+      },
+      {
+        "id": "8",
+        "name": "IP转数字,数字转IP",
+        "url": "https://www.bejson.com/convert/ip2int/",
+        "sort": 8,
+        "target": "_blank",
+        "description": "在线ip转int,ip转数字"
+      },
+      {
+        "id": "9",
+        "name": "TCP/IP子网掩码计算换算",
+        "url": "https://www.bejson.com/convert/subnetmask/",
+        "sort": 9,
+        "target": "_blank",
+        "description": "局域网规划工具,子网计算划分,子网掩码各个进制表示换算,IP地址进制表示换算"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "type": "前端",
+    "sort": 13,
+    "description": "前端工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "在线html转js,js转html",
+        "url": "https://www.bejson.com/convert/html_js/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "给html换行符转成字符串拼接"
+      },
+      {
+        "id": "2",
+        "name": "fontawesome图标查询",
+        "url": "http://www.bejson.com/ui/fontawesome/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "fontawesome图标在线查询"
+      },
+      {
+        "id": "3",
+        "name": "在线获取键盘按键值(keycode、ascii码)",
+        "url": "http://www.bejson.com/othertools/keycodes/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "在线获取键盘按键值(keycode,ascii码)"
+      },
+      {
+        "id": "4",
+        "name": "图片在线压缩工具",
+        "url": "http://www.bejson.com/ui/compress_img/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "压缩0-30是无损，高于30就会丢失像素"
+      },
+      {
+        "id": "5",
+        "name": "在线代码编辑器",
+        "url": "http://www.bejson.com/pages/cooleditor/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "很酷的代码开发工具"
+      },
+      {
+        "id": "6",
+        "name": "在线photoshop",
+        "url": "http://www.bejson.com/ui/photoshop/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "ps, ps在线图片编辑器是一个专业的在线ps照片处理软件。绿色免安装，直接在您的浏览器上用它修正，调整和美化您的图像。"
+      },
+      {
+        "id": "7",
+        "name": "H5模板在线制作",
+        "url": "https://h5.bce.baidu.com/store",
+        "sort": 7,
+        "target": "_blank",
+        "description": "一个在线H5制作平台,依托贴吧等强大社交分享平台，集制作和传播于一体的现代化制作平台"
+      },
+      {
+        "id": "8",
+        "name": "在线生成圆角图片",
+        "url": "http://www.bejson.com/ui/borderradius/",
+        "sort": 8,
+        "target": "_blank",
+        "description": "在线图片转圆角图片,支持png,gif,jpg"
+      },
+      {
+        "id": "9",
+        "name": "IOS安卓手机开发logo生成工具",
+        "url": "http://www.bejson.com/ui/create_logo/",
+        "sort": 9,
+        "target": "_blank",
+        "description": "IOS安卓logo在线生成器"
+      },
+      {
+        "id": "10",
+        "name": "ICO图标在线转换工具",
+        "url": "http://www.bejson.com/ui/icomaker/",
+        "sort": 10,
+        "target": "_blank",
+        "description": "ICO图标在线转换工具"
+      },
+      {
+        "id": "11",
+        "name": "RunJS在线编辑器",
+        "url": "http://runjs.cn/code",
+        "sort": 11,
+        "target": "_blank",
+        "description": "RunJS,在线编写、展示html、js、css代码，拥有实时预览、分享、Fork、代码高亮、自动完成等多项特性，提供文件上传、多种登录方式。"
+      },
+      {
+        "id": "12",
+        "name": "ueditor在线代码编辑器",
+        "url": "http://www.bejson.com/ui/ueditor/",
+        "sort": 12,
+        "target": "_blank",
+        "description": "在线编辑器,大家可以在这个编辑页面内容最终可以获取源码"
+      },
+      {
+        "id": "13",
+        "name": "在线调色板",
+        "url": "http://www.bejson.com/ui/getcolor/",
+        "sort": 13,
+        "target": "_blank",
+        "description": "在线调色板,取色工具"
+      },
+      {
+        "id": "14",
+        "name": "WEB安全色",
+        "url": "http://www.bejson.com/ui/safecolor/",
+        "sort": 14,
+        "target": "_blank",
+        "description": "本表中列出的是WEB设计、开发中常用安全色。列于此是为了方便大家参考"
+      },
+      {
+        "id": "15",
+        "name": "在线图片转Base64编码",
+        "url": "http://www.bejson.com/ui/image2base64/",
+        "sort": 15,
+        "target": "_blank",
+        "description": "在线图片转Base64编码"
+      },
+      {
+        "id": "16",
+        "name": "在线图片大小格式(支持webp)转换",
+        "url": "http://www.bejson.com/ui/imagehandler/",
+        "sort": 16,
+        "target": "_blank",
+        "description": "自定义生成制定格式png,jpg,webp等等"
+      },
+      {
+        "id": "17",
+        "name": "iPhone/iPad/Android UI尺寸规范",
+        "url": "http://www.bejson.com/ui/phonesize/",
+        "sort": 17,
+        "target": "_blank",
+        "description": "UI尺寸规范,UI图标尺寸,UI界面尺寸,iPhone6尺寸,iPhone6 Plus尺寸,安卓尺寸,iOS尺寸"
+      },
+      {
+        "id": "18",
+        "name": "阿里巴巴矢量图标库",
+        "url": "http://www.iconfont.cn/plus/collections/index",
+        "sort": 18,
+        "target": "_blank",
+        "description": "Iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具"
+      },
+      {
+        "id": "19",
+        "name": "fontawesome矢量图标库",
+        "url": "http://fontawesome.io/icons/",
+        "sort": 19,
+        "target": "_blank",
+        "description": "Font Awesome, the iconic font and CSS framework"
+      },
+      {
+        "id": "20",
+        "name": "SVG代码编辑预览",
+        "url": "http://www.bejson.com/ui/svg_editor/",
+        "sort": 20,
+        "target": "_blank",
+        "description": "SVG在线制作编辑预览工具"
+      },
+      {
+        "id": "21",
+        "name": "常用JS资源库",
+        "url": "http://www.bejson.com/othertools/libcdn/",
+        "sort": 21,
+        "target": "_blank",
+        "description": "罗列这类js类库希望能帮助到大家，下面类库都支持CDN,所以不用担心速度问题，就算某个节点慢也不会影响全国其他地区的访问速度"
+      },
+      {
+        "id": "22",
+        "name": "弹出窗口生成器",
+        "url": "http://www.bejson.com/ui/openweb/",
+        "sort": 22,
+        "target": "_blank",
+        "description": "OPEN参数生成器,弹出窗口生成器"
+      },
+      {
+        "id": "23",
+        "name": "自动排版工具",
+        "url": "http://www.bejson.com/ui/texteditor/",
+        "sort": 23,
+        "target": "_blank",
+        "description": "在线自动排版工具"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "type": "后端",
+    "sort": 14,
+    "description": "后端工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "JSON生成Java实体类",
+        "url": "http://www.bejson.com/json2javapojo/new/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "在线JSON字符串转Java实体类(JavaBean)"
+      },
+      {
+        "id": "2",
+        "name": "JSON生成C#实体类",
+        "url": "http://www.bejson.com/convert/json2csharp/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "JSON转C#实体类"
+      },
+      {
+        "id": "3",
+        "name": "mysql转Java实体类",
+        "url": "http://www.bejson.com/devtools/sql2pojo/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "在线SQL转Java实体类(POJO,JavaBean)"
+      },
+      {
+        "id": "4",
+        "name": "oracle转Java实体类",
+        "url": "http://www.bejson.com/othertools/sql2pojo/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "数据库sql转Java实体类"
+      },
+      {
+        "id": "5",
+        "name": "properties转yaml",
+        "url": "https://www.bejson.com/devtools/properties2yaml/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "在线properties转yaml工具(properties to yaml)"
+      },
+      {
+        "id": "6",
+        "name": "YAML在线编辑(校验)器",
+        "url": "https://www.bejson.com/validators/yaml_editor/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "YAML在线编辑器,实时查看您的YAML文件编辑情况"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "type": "转换",
+    "sort": 15,
+    "description": "转换工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "在线html转js,js转html",
+        "url": "https://www.bejson.com/convert/html_js/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "给html换行符转成字符串拼接"
+      },
+      {
+        "id": "2",
+        "name": "php反序列化成JSON和代码",
+        "url": "https://www.bejson.com/convert/deserialize/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "反序列化生成json和代码"
+      },
+      {
+        "id": "3",
+        "name": "在线图片大小格式(支持webp)转换",
+        "url": "https://www.bejson.com/ui/imagehandler/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "自定义生成制定格式png,jpg,webp等等"
+      },
+      {
+        "id": "4",
+        "name": "jpg,png图片在线转svg",
+        "url": "https://www.bejson.com/convert/image_to_svg/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "在线jpg,png图片转SVG工具"
+      },
+      {
+        "id": "5",
+        "name": "在线地图经纬度定位换算",
+        "url": "https://www.bejson.com/convert/map/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "在线经纬度定位地图,在线地图获取经纬度"
+      },
+      {
+        "id": "6",
+        "name": "px转em,em转px",
+        "url": "https://www.bejson.com/ui/px2em/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "PX转EM,EM转PX在线工具"
+      },
+      {
+        "id": "7",
+        "name": "在线图片转Base64编码",
+        "url": "https://www.bejson.com/ui/image2base64/",
+        "sort": 7,
+        "target": "_blank",
+        "description": "在线图片转Base64编码"
+      },
+      {
+        "id": "8",
+        "name": "unicode中文互转",
+        "url": "https://www.bejson.com/convert/unicode_chinese/",
+        "sort": 8,
+        "target": "_blank",
+        "description": "在线unicode转中文,中文转unicode"
+      },
+      {
+        "id": "9",
+        "name": "在线短地址转换",
+        "url": "https://www.bejson.com/convert/shorturl/",
+        "sort": 9,
+        "target": "_blank",
+        "description": "在线短地址转换工具"
+      },
+      {
+        "id": "10",
+        "name": "Unix时间转换",
+        "url": "https://www.bejson.com/convert/unix/",
+        "sort": 10,
+        "target": "_blank",
+        "description": "Unix时间戳转换"
+      },
+      {
+        "id": "11",
+        "name": "进制转换",
+        "url": "https://www.bejson.com/convert/jinzhi/",
+        "sort": 11,
+        "target": "_blank",
+        "description": "支持二进制 十进制 十六进制 六十四进制互相转换"
+      },
+      {
+        "id": "12",
+        "name": "16进制到文本字符串",
+        "url": "https://www.bejson.com/convert/ox2str/",
+        "sort": 12,
+        "target": "_blank",
+        "description": "16进制到文本字符串的转换，在线实时转换"
+      },
+      {
+        "id": "13",
+        "name": "字母大小写转换",
+        "url": "https://www.bejson.com/convert/uplowercase/",
+        "sort": 13,
+        "target": "_blank",
+        "description": "在线大小写转换"
+      },
+      {
+        "id": "14",
+        "name": "RGB颜色和HEX互转",
+        "url": "https://www.bejson.com/convert/rgbhex/",
+        "sort": 14,
+        "target": "_blank",
+        "description": "在线RGB三原色-HEX16色转换"
+      },
+      {
+        "id": "15",
+        "name": "在线文档转PDF",
+        "url": "https://www.bejson.com/convert/file2pdf/",
+        "sort": 15,
+        "target": "_blank",
+        "description": "在线文档转pdf"
+      },
+      {
+        "id": "16",
+        "name": "二维码生成与解码",
+        "url": "https://www.bejson.com/convert/qrcode/",
+        "sort": 16,
+        "target": "_blank",
+        "description": "在线生成二维码,在线解密二维码"
+      },
+      {
+        "id": "17",
+        "name": "数字转中文(人民币)",
+        "url": "https://www.bejson.com/convert/numtohz/",
+        "sort": 17,
+        "target": "_blank",
+        "description": "数字转中文,阿拉伯数字转中文,人民币转换"
+      },
+      {
+        "id": "18",
+        "name": "在线文件大小换算",
+        "url": "https://www.bejson.com/convert/filesize/",
+        "sort": 18,
+        "target": "_blank",
+        "description": "在线文件大小转换,bit,bytes,KB,MB,GB,TB转换"
+      },
+      {
+        "id": "19",
+        "name": "NATIVE/ASCII编码互转工具",
+        "url": "https://www.bejson.com/convert/nativeascii/",
+        "sort": 19,
+        "target": "_blank",
+        "description": "NATIVE/ASCII编码互转工具"
+      },
+      {
+        "id": "20",
+        "name": "Html与UBB代码互相转换工具",
+        "url": "https://www.bejson.com/convert/htmlubb/",
+        "sort": 20,
+        "target": "_blank",
+        "description": "在线Html与UBB代码互相转换工具"
+      },
+      {
+        "id": "21",
+        "name": "汉字转换拼音",
+        "url": "https://www.bejson.com/convert/topinying/",
+        "sort": 21,
+        "target": "_blank",
+        "description": "中文转换拼音,汉字转换拼音"
+      },
+      {
+        "id": "22",
+        "name": "全角半角转换",
+        "url": "https://www.bejson.com/convert/fullhalf/",
+        "sort": 22,
+        "target": "_blank",
+        "description": "在线全角半角转换"
+      },
+      {
+        "id": "23",
+        "name": "简繁体火星文互转",
+        "url": "https://www.bejson.com/convert/j2f/",
+        "sort": 23,
+        "target": "_blank",
+        "description": "在线简体,繁体,火星文转换工具"
+      },
+      {
+        "id": "24",
+        "name": "Html转换为MarkDown工具",
+        "url": "https://www.bejson.com/convert/html2markdown/",
+        "sort": 24,
+        "target": "_blank",
+        "description": "Html/MarkDown互转工具"
+      },
+      {
+        "id": "25",
+        "name": "视频秒转音频",
+        "url": "http://tomp3.cn/",
+        "sort": 25,
+        "target": "_blank",
+        "description": "mp4转mp3,m4a,flv转mp3,m4a,wma转mp3,m4a"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "type": "测试",
+    "sort": 16,
+    "description": "测试工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "正则表达式测试",
+        "url": "https://www.bejson.com/othertools/regex/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "在线正则表达式"
+      },
+      {
+        "id": "2",
+        "name": "xpath测试",
+        "url": "https://www.bejson.com/testtools/xpath/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "xpath在线测试工具"
+      }
+    ]
   }
 ]
