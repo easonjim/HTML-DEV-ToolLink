@@ -17,3 +17,6 @@ ToolLink助手：默认包括常用的在线字符串编解码、代码压缩、
 参考这个文件[https://github.com/easonjim/HTML-DEV-ToolLink/blob/master/datasource.json](https://github.com/easonjim/HTML-DEV-ToolLink/blob/master/datasource.json)写一份自己的，并在插件的配置页面选择自己的数据源文件即可。  
 数据源文件的存放方式可以是GitHub，也可以是自己的私有服务器等等。  
 ## 效果展示：  
+![img](https://raw.githubusercontent.com/easonjim/HTML-DEV-ToolLink/master/static/img/chrome/1.jpg)  
+![img](https://raw.githubusercontent.com/easonjim/HTML-DEV-ToolLink/master/static/img/chrome/2.jpg)  
+![img](https://raw.githubusercontent.com/easonjim/HTML-DEV-ToolLink/master/static/img/chrome/3.jpg)  
