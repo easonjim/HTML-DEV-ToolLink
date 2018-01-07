@@ -6,20 +6,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>HTML-DEV-ToolLink</title>
-    <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="static/vendor/jquery-1.5/jquery-1.5.min.js"></script>
     <script src="static/js/index.js"></script>
     <script src="static/vendor/template/templateengine.js"></script>
     <link rel="stylesheet" href="static/css/index.css">
     <script type="text/template" id="template_content">
-        <#
-            function jsonSort(a, b) {
-                return a.sort - b.sort;
-            }
-            data = data.sort(jsonSort);
-            for (var i = 0; i < data.length; i++) {
-                data[i].items = data[i].items.sort(jsonSort);
-            }
-        #>
         <# for ( var i = 0; i < data.length; i++ ) { #>
             <div class="classify-title">
                 <span><#=data[i].type#></span>
