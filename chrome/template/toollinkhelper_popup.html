@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    <head>
+        <title>ToolLink助手-弹出页面</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="../static/css/toollink-popup.css" />
+		<script type="text/javascript" src="../static/vendor/jquery-1.5/jquery-1.5.min.js"></script>
+		<script type="text/javascript" src="../static/js/mod/mod_popup.js"></script>
+        <script type="text/template" id="tool_template_new_datasource_content">
+            <li class="-x-grid" data-msgtype="ONLINE_URL" data-usefile="0" data-url="<#=data.url#>">
+                <b></b><a target="<#=data.target#>" title="<#=data.name#>【<#=data.description#>】（<#=data.url#>）"><span><#=data.name#></span></a>
+            </li>
+        </script>
+    </head>
+    <body>
+    	<div class="toollink-function-title">ToolLink助手</div>
+    	<ul class="toollink-function-list">
+
+    	</ul>
+        <div class="toollink-feedback">
+            <a href="https://github.com/easonjim/HTML-DEV-ToolLink/issues" target="_blank" tabindex="-1">意见反馈</a>
+
+            <span class="x-settings">
+                <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14">
+                    <path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path>
+                </svg>
+                设置
+            </span>
+        </div>
+    </body>
+</html>

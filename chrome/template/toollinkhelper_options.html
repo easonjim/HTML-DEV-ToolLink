@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <title>ToolLink助手-配置项</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/css/toollink-opt.css"/>
+    <script type="text/javascript" src="../static/vendor/jquery-1.5/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="../static/js/mod/mod_options.js"></script>
+    <script type="text/template" id="tool_template_content">
+        <fieldset>
+            <legend><#=data.type#><span>（<#=data.description#>）</span></legend>
+            <# for ( var i = 0; i < data.items.length; i++ ) { #>
+                <input type="checkbox" name="checkbox_tool" id="checkbox_tool_<#=data.id#>_<#=data.items[i].id#>" <#=data.items[i].checked#> />
+                <label for="checkbox_tool_<#=data.id#>_<#=data.items[i].id#>"><a href="<#=data.items[i].url#>" target="<#=data.items[i].target#>" title="<#=data.items[i].url#>" name="<#=data.items[i].name#>" description="<#=data.items[i].description#>"><#=data.items[i].name#>【<#=data.items[i].description#>】</a></label><br/>
+            <# } #>
+        </fieldset>
+    </script>
+    <script type="text/template" id="tool_template_new_datasource_content">
+        <div class="datasource">
+            <input type="checkbox" name="checkbox_datasource" <#=data.checked#>/>
+            <input type="text" name="input_datasource" value="<#=data.url#>"/><a href="#" class="add">[+]</a><a href="#" class="delete">[-]</a>
+        </div>
+    </script>
+</head>
+<body>
+<div class="mod-body-inner">
+    <header class="toollink-opt-header">
+        <div class="bar">
+            <img src="../static/img/icon-128.png" alt="" width="24"/>
+            <span class="text">ToolLink助手-配置项</span>
+        </div>
+    </header>
+    <section class="toollink-opt-content">
+        <div class="right">
+            <!-- 启动项 -->
+            <div id="opt_start" class="selected">
+                <form action="#" id="opt_form_start">
+                    <ul class="no-list-style">
+                        <li>
+                            <fieldset>
+                                <legend>配置1：配置数据源</legend>
+                                <div class="datasource">
+                                    <input type="checkbox" name="checkbox_original_datasource" id="checkbox_original_datasource" checked/>
+                                    <input type="text" name="input_original_datasource" id="input_original_datasource" value="https://raw.githubusercontent.com/easonjim/HTML-DEV-ToolLink/master/datasource.json"/><a href="#" class="add">[+]</a>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>配置2：启用或关停相关功能</legend>
+                            </fieldset>
+                        </li>
+                    </ul>
+
+                    <hr/>
+
+                    <div class="mod-btns">
+                        <button class="btn" id="btn_save">改好了</button>
+                        <button class="btn close" id="btn_close">不改了</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="toollink-opt-footer"></footer>
+</div>
+</body>
+</html>

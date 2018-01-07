@@ -1,0 +1,124 @@
+body {
+    font-size: 14px;
+    -webkit-user-select: none;
+    padding: 0;
+    margin: 0;
+    width: 170px;
+    position: relative;
+    overflow: hidden;
+}
+
+.toollink-hide {
+    display: none;
+}
+
+.toollink-function-title {
+    width: 100%;
+    padding: 5px;
+    color: #522;
+    font-weight: bolder;
+    cursor: default;
+    border-bottom: 1px dotted #aaa;
+}
+
+ul.toollink-function-list {
+    padding: 0px;
+    list-style: none;
+}
+
+ul.toollink-function-list li {
+    padding: 3px 3px 3px 10px;
+    cursor: pointer;
+    color: #555;
+    -webkit-transition: all .4s ease;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+ul.toollink-function-list li:hover {
+    color: #0000cc;
+    background: #f1f1f1;
+}
+
+ul.toollink-function-list li > a {
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul.toollink-function-list li > a:focus {
+    outline:none;
+}
+
+ul.toollink-function-list li > a:hover {
+    color: #0000cc;
+}
+
+ul.toollink-function-list li > a span {
+    padding-left: 24px;
+}
+
+ul.toollink-function-list li > b {
+    width: 14px;
+    height: 14px;
+    background: url(../img/ui-icons_228ef1_256x240.png) no-repeat;
+    -webkit-transition: all .5s ease;
+    position: absolute;
+    margin-top: 2px;
+}
+
+ul.toollink-function-list li:hover > b {
+    -webkit-transform: rotate(360deg);
+}
+
+ul.toollink-function-list li.-x-grid b {
+    background-position: -113px -113px;
+}
+
+ul.toollink-function-list li i {
+    color: #aaa;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.toollink-feedback {
+    font-size: 12px;
+    border-top: 1px dotted #ddd;
+    padding: 5px 15px 5px 5px;
+    line-height: 20px;
+    color: #888;
+}
+
+.toollink-feedback a {
+    color: #888;
+    text-decoration: none;
+    text-align: left;
+}
+
+.toollink-feedback a:hover {
+    color: #0000cc;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.toollink-feedback .octicon {
+    vertical-align: text-bottom;
+}
+
+.toollink-feedback .octicon {
+    display: inline-block;
+    fill: currentColor;
+}
+
+.toollink-feedback .x-settings {
+    float: right;
+    cursor: pointer;
+}
+
+.toollink-feedback .x-settings:hover {
+    color: #0000cc;
+}
+

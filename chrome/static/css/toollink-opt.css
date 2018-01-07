@@ -1,0 +1,120 @@
+body {
+	font-family:"MS Sans Serif";
+	font-size:14px;
+}
+.mod-body-inner {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.toollink-opt-header {
+	width:100%;
+    background: #fff;
+}
+.toollink-opt-header .bar{
+	height:30px;
+	width:100%;
+	background:rgba(111, 178, 248, 0.1);
+    border-bottom: 2px solid #ccc;
+	clear:both;
+    line-height: 20px;
+}
+.toollink-opt-header .bar:after {
+	content:"\20";
+}
+
+.toollink-opt-header .bar .text{
+	padding:5px;
+    float: left;
+}
+.toollink-opt-header .bar img {
+    float: left;
+    margin: 3px 0 0 3px;
+}
+
+.toollink-opt-content {
+}
+.toollink-opt-content .left{
+	width:200px;
+	border-right:5px solid #def;
+}
+.toollink-opt-content .left ul{
+	margin:0;
+	padding:5px;
+}
+.toollink-opt-content .left li{
+	padding:6px 0 6px 20px;
+	cursor:default;
+	margin:4px 0;
+	list-style:none;
+}
+.toollink-opt-content .right ul{
+	margin:0px;
+	padding:5px;
+}
+.toollink-opt-content .right ul li{
+	margin:0 0 0 20px;
+	padding:5px;
+    line-height: 24px;
+}
+.toollink-opt-content .right ul li input {
+    margin-right: 20px;
+}
+.toollink-opt-content .right ul li input[type="text"] {
+    width: 88%;
+}
+.toollink-opt-content .right ul.no-list-style li{
+	margin:0;
+	list-style:none;
+}
+.toollink-opt-content fieldset{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.toollink-opt-content fieldset legend{
+    padding: 0 5px;
+    color:#f00;
+}
+.toollink-opt-content .right ul li a {
+    color:#000;
+    text-decoration:none;
+    text-align: left;
+}
+.toollink-opt-content .right ul li a:hover {
+    color: #0000cc;
+}
+
+.toollink-hide {
+	display:none;
+}
+hr {
+    height: 1px ;
+    background: #ccc;
+    border: none;
+}
+.mod-btns {
+    padding: 10px;
+}
+.mod-btns .btn {
+    margin: 5px 10px;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.mod-btns .btn.with120 {
+    width: 120px;
+}
+
+.mod-btns .btn.close {
+    background: #eee;
+    margin-left:0;
+    margin-right:20px;
+}
+.mod-btns .btn:hover {
+    color:#b00;
+}
