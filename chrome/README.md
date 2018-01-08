@@ -10,7 +10,7 @@ ToolLink助手：默认包括常用的在线字符串编解码、代码压缩、
     - 选择“加载已解压的扩展程序”，定位到chrome文件夹即可。  
 ## 框架说明：  
   - 图标使用了这个项目，第一版参照此项目实现：[https://github.com/anttribe/DevTookit](https://github.com/anttribe/DevTookit) 
-  - 开发框架使用FeHelper这个项目，灵感也来自此框架，命名空间全改了，框架的版权属于这个项目：[https://github.com/anttribe/DevTookit](https://github.com/anttribe/DevTookit)  
+  - 开发框架使用FeHelper这个项目，灵感也来自此框架，命名空间全改了，框架的版权属于这个项目：[https://github.com/zxlie/FeHelper](https://github.com/zxlie/FeHelper)  
   - 由于FeHelper是高度集成工具到插件的，后续增加一些自定义工具不太方便，所以就单独剥离整个框架，去除所有工具，改造成只管理在线工具的插件。  
   - ToolLink只包含最简单的配置和展示框架，且支持自定义的数据源，后续可以自行在GitHub上新建自己的数据源来进行插件的配置。  
   - FeHelper的框架基于模块化和Chrome的Background模式的消息机制封装进行开发的，没有太多的第三方框架，基本是纯JavaScript实现，所以学习起来非常的好入手。  
