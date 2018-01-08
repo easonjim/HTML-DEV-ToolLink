@@ -1062,5 +1062,133 @@
         "description": "xpath在线测试工具"
       }
     ]
+  },
+  {
+    "id": "17",
+    "type": "API",
+    "sort": 17,
+    "description": "API",
+    "items": [
+      {
+        "id": "1",
+        "name": "免费JSON接口",
+        "url": "http://www.bejson.com/knownjson/webInterface/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "各种提供JSON格式数据返回服务网站的API接口"
+      },
+      {
+        "id": "2",
+        "name": "收费JSON接口",
+        "url": "http://apistore.baidu.com/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "API Store，为开发者提供最全面的API服务，汇集了国内外应用开发所需要的Android API/SDK，IOS SDK，涉及设计开发，运维管理，云服务，app推广，数据服务等多个范畴的服务，旨在向开发者提供最全面，最便捷的API搜索服务。"
+      },
+      {
+        "id": "3",
+        "name": "短信验证码",
+        "url": "https://www.mysubmail.com/sms?s=bejson",
+        "sort": 3,
+        "target": "_blank",
+        "description": "SUBMAIL赛邮云通信的短信平台服务致力于为中小型企业提供安全高效的短信群发服务和短信验证服务。企业主可借助SUBMAIL短信群发平台、短信群发软件轻松实现短信营销,SUBMAIL短信验证码送达率99%以上,可为用户提供短信网关、短信接口。"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "type": "平台工具",
+    "sort": 18,
+    "description": "平台工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "微信公众平台调试工具",
+        "url": "http://mp.weixin.qq.com/debug",
+        "sort": 1,
+        "target": "_blank",
+        "description": "此工具旨在帮助开发者检测调用【微信公众平台开发者API】时发送的请求参数是否正确，提交相关信息后可获得服务器的验证结果"
+      },
+      {
+        "id": "2",
+        "name": "微信卡券JSAPI签名校验工具",
+        "url": "http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=cardsign",
+        "sort": 2,
+        "target": "_blank",
+        "description": "微信卡券JSAPI签名校验工具"
+      },
+      {
+        "id": "3",
+        "name": "微信 JS 接口签名校验工具",
+        "url": "http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=jsapisign",
+        "sort": 3,
+        "target": "_blank",
+        "description": "微信 JS 接口签名校验工具"
+      },
+      {
+        "id": "4",
+        "name": "微信企业号调试工具",
+        "url": "https://qy.weixin.qq.com/cgi-bin/debug",
+        "sort": 4,
+        "target": "_blank",
+        "description": "微信企业号，连接企业的另一种可能，是微信为企业用户提供的移动应用入口。"
+      },
+      {
+        "id": "5",
+        "name": "QQ互联API调试工具",
+        "url": "https://connect.qq.com/sdk/webtools/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "QQ互联API调试工具"
+      },
+      {
+        "id": "6",
+        "name": "淘宝oauth2.0测试工具",
+        "url": "http://open.taobao.com/apitools/sessionPage.htm",
+        "sort": 6,
+        "target": "_blank",
+        "description": "淘宝开放平台，淘宝oauth2.0测试工具"
+      },
+      {
+        "id": "7",
+        "name": "淘宝API测试工具",
+        "url": "http://open.taobao.com/apitools/apiTools.htm",
+        "sort": 7,
+        "target": "_blank",
+        "description": "淘宝开放平台，API测试工具"
+      },
+      {
+        "id": "8",
+        "name": "淘宝错误码查询工具",
+        "url": "http://open.taobao.com/apitools/errorCodeSearch.htm",
+        "sort": 8,
+        "target": "_blank",
+        "description": "淘宝开放平台，错误码搜索"
+      },
+      {
+        "id": "9",
+        "name": "淘宝商品属性工具",
+        "url": "http://open.taobao.com/apitools/apiPropTools.htm",
+        "sort": 9,
+        "target": "_blank",
+        "description": "淘宝开放平台，API属性工具"
+      },
+      {
+        "id": "10",
+        "name": "开发者自助排查工具",
+        "url": "https://openmonitor.alipay.com/acceptance/troubleshoot.htm",
+        "sort": 10,
+        "target": "_blank",
+        "description": "开放平台云验收"
+      },
+      {
+        "id": "11",
+        "name": "新浪微博API工具",
+        "url": "http://open.weibo.com/tools/console",
+        "sort": 11,
+        "target": "_blank",
+        "description": "新浪微博API测试工具"
+      }
+    ]
   }
 ]
