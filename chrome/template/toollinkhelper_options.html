@@ -8,8 +8,7 @@
     <script type="text/javascript" src="../static/js/mod/mod_options.js"></script>
     <script type="text/template" id="tool_template_content">
         <fieldset>
-            <legend id="<#=data.id#>" sort="<#=data.sort#>" type="<#=data.type#>" description="<#=data.description#>"><#=data.type#><span>【<#=data.description#>】</span>
-            </legend>
+            <legend id="<#=data.id#>" sort="<#=data.sort#>" type="<#=data.type#>" description="<#=data.description#>"><#=data.type#><span>【<#=data.description#>】</span></legend>
             <# for ( var i = 0; i < data.items.length; i++ ) { #>
                 <input type="checkbox" name="checkbox_tool" id="checkbox_tool_<#=data.id#>_<#=data.items[i].id#>" <#=data.items[i].checked#> />
                 <label for="checkbox_tool_<#=data.id#>_<#=data.items[i].id#>"><a href="<#=data.items[i].url#>" target="<#=data.items[i].target#>" title="<#=data.items[i].url#>" name="<#=data.items[i].name#>" description="<#=data.items[i].description#>" id="<#=data.items[i].id#>" sort="<#=data.items[i].sort#>"><#=data.items[i].name#>【<#=data.items[i].description#>】</a></label>

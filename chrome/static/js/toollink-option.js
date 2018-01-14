@@ -321,11 +321,11 @@ jsoft.toollinkOption = (function () {
      * 初始化缓存的数据源URL
      */
     var _initDatasourceUrl = function () {
+        // 清除所有数据源输入框
+        $('#opt_start #opt_form_start ul li fieldset div.datasource').remove();
         $.each(optionItemUrls, function (i, item) {
             for (var key in item) {
                 var url = item[key];
-                // 清除所有数据源输入框
-                $('#opt_start #opt_form_start ul li fieldset div.datasource').remove();
                 var outhtml = template2_setdata($('#tool_template_new_datasource_content').html(), {
                     checked: 'checked',
                     url: url
