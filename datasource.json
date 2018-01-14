@@ -1190,5 +1190,1117 @@
         "description": "新浪微博API测试工具"
       }
     ]
+  },
+  {
+    "id": "19",
+    "type": "常用对照表",
+    "sort": 19,
+    "description": "开源中国在线工具，ostools，常用对照表",
+    "items": [
+      {
+        "id": "1",
+        "name": "HTTP Mime-type",
+        "url": "http://tool.oschina.net/commons",
+        "sort": 1,
+        "target": "_blank",
+        "description": "]HTTP Mime-type"
+      },
+      {
+        "id": "2",
+        "name": "HTML转义字符",
+        "url": "http://tool.oschina.net/commons?type=2",
+        "sort": 2,
+        "target": "_blank",
+        "description": "HTML转义字符"
+      },
+      {
+        "id": "3",
+        "name": "RGB颜色参考",
+        "url": "http://tool.oschina.net/commons?type=3",
+        "sort": 3,
+        "target": "_blank",
+        "description": "RGB颜色参考"
+      },
+      {
+        "id": "4",
+        "name": "ASCII对照表",
+        "url": "http://tool.oschina.net/commons?type=4",
+        "sort": 4,
+        "target": "_blank",
+        "description": "ASCII对照表"
+      },
+      {
+        "id": "5",
+        "name": "HTTP状态码详解",
+        "url": "http://tool.oschina.net/commons?type=5",
+        "sort": 5,
+        "target": "_blank",
+        "description": "HTTP状态码详解"
+      },
+      {
+        "id": "6",
+        "name": "Java运算符对照",
+        "url": "http://tool.oschina.net/commons?type=6",
+        "sort": 6,
+        "target": "_blank",
+        "description": "Java运算符对照"
+      },
+      {
+        "id": "7",
+        "name": "C语言运算符对照",
+        "url": "http://tool.oschina.net/commons?type=6#c_",
+        "sort": 7,
+        "target": "_blank",
+        "description": "C语言运算符对照"
+      },
+      {
+        "id": "8",
+        "name": "PHP运算符对照",
+        "url": "http://tool.oschina.net/commons?type=6#php_",
+        "sort": 8,
+        "target": "_blank",
+        "description": "PHP运算符对照"
+      },
+      {
+        "id": "9",
+        "name": "Python运算符对照",
+        "url": "http://tool.oschina.net/commons?type=6#python_",
+        "sort": 9,
+        "target": "_blank",
+        "description": "Python运算符对照"
+      },
+      {
+        "id": "10",
+        "name": "TCP/UDP端口参考",
+        "url": "http://tool.oschina.net/commons?type=7",
+        "sort": 10,
+        "target": "_blank",
+        "description": "TCP/UDP端口参考"
+      },
+      {
+        "id": "11",
+        "name": "网页字体参考",
+        "url": "http://tool.oschina.net/commons?type=8",
+        "sort": 11,
+        "target": "_blank",
+        "description": "网页字体参考"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "type": "代码处理",
+    "sort": 20,
+    "description": "开源中国在线工具，ostools，代码处理",
+    "items": [
+      {
+        "id": "1",
+        "name": "代码着色/高亮",
+        "url": "http://tool.oschina.net/highlight",
+        "sort": 1,
+        "target": "_blank",
+        "description": "代码着色/高亮"
+      },
+      {
+        "id": "2",
+        "name": "代码对比/归并",
+        "url": "http://tool.oschina.net/diff",
+        "sort": 2,
+        "target": "_blank",
+        "description": "代码对比/归并"
+      },
+      {
+        "id": "3",
+        "name": "XML代码格式化",
+        "url": "http://tool.oschina.net/codeformat/xml",
+        "sort": 3,
+        "target": "_blank",
+        "description": "XML代码格式化"
+      },
+      {
+        "id": "4",
+        "name": "CSS代码格式化",
+        "url": "http://tool.oschina.net/codeformat/css",
+        "sort": 4,
+        "target": "_blank",
+        "description": "CSS代码格式化"
+      },
+      {
+        "id": "5",
+        "name": "JSON代码格式化",
+        "url": "http://tool.oschina.net/codeformat/json",
+        "sort": 5,
+        "target": "_blank",
+        "description": "JSON代码格式化"
+      },
+      {
+        "id": "6",
+        "name": "JS代码格式化",
+        "url": "http://tool.oschina.net/codeformat/js",
+        "sort": 6,
+        "target": "_blank",
+        "description": "JS代码格式化"
+      },
+      {
+        "id": "7",
+        "name": "Java代码格式化",
+        "url": "http://tool.oschina.net/codeformat/java",
+        "sort": 7,
+        "target": "_blank",
+        "description": "Java代码格式化"
+      },
+      {
+        "id": "8",
+        "name": "SQL代码格式化",
+        "url": "http://tool.oschina.net/codeformat/sql",
+        "sort": 8,
+        "target": "_blank",
+        "description": "SQL代码格式化"
+      },
+      {
+        "id": "9",
+        "name": "LESS编译器",
+        "url": "http://tool.oschina.net/less",
+        "sort": 9,
+        "target": "_blank",
+        "description": "LESS编译器"
+      },
+      {
+        "id": "10",
+        "name": "MarkDown编译器",
+        "url": "http://tool.oschina.net/markdown",
+        "sort": 10,
+        "target": "_blank",
+        "description": "MarkDown编译器"
+      },
+      {
+        "id": "11",
+        "name": "MathML编辑",
+        "url": "http://tool.oschina.net/mathml",
+        "sort": 11,
+        "target": "_blank",
+        "description": "MathML编辑"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "type": "Html|Js|Css工具",
+    "sort": 21,
+    "description": "开源中国在线工具，ostools，Html|Js|Css工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "JS在线编辑(RunJS)",
+        "url": "http://runjs.cn/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "JS在线编辑(RunJS)"
+      },
+      {
+        "id": "2",
+        "name": "JS代码压缩",
+        "url": "http://tool.oschina.net/jscompress",
+        "sort": 2,
+        "target": "_blank",
+        "description": "JS代码压缩"
+      },
+      {
+        "id": "3",
+        "name": "CSS代码压缩",
+        "url": "http://tool.oschina.net/jscompress",
+        "sort": 3,
+        "target": "_blank",
+        "description": "CSS代码压缩"
+      },
+      {
+        "id": "4",
+        "name": "HTML代码压缩",
+        "url": "http://tool.oschina.net/jscompress?type=2",
+        "sort": 4,
+        "target": "_blank",
+        "description": "HTML代码压缩"
+      },
+      {
+        "id": "5",
+        "name": "多JS文件合并压缩",
+        "url": "http://tool.oschina.net/jscompress?type=3",
+        "sort": 5,
+        "target": "_blank",
+        "description": "多JS文件合并压缩"
+      },
+      {
+        "id": "6",
+        "name": "HTML/UBB转换",
+        "url": "http://tool.oschina.net/ubb",
+        "sort": 6,
+        "target": "_blank",
+        "description": "HTML/UBB转换"
+      },
+      {
+        "id": "7",
+        "name": "CSV转HTML表格",
+        "url": "http://tool.oschina.net/csv2tb",
+        "sort": 7,
+        "target": "_blank",
+        "description": "CSV转HTML表格"
+      },
+      {
+        "id": "8",
+        "name": "jQuery分页插件",
+        "url": "http://tool.oschina.net/jquery",
+        "sort": 8,
+        "target": "_blank",
+        "description": "jQuery分页插件"
+      },
+      {
+        "id": "9",
+        "name": "jQuery语法着色",
+        "url": "http://tool.oschina.net/jquery?type=2",
+        "sort": 9,
+        "target": "_blank",
+        "description": "jQuery语法着色"
+      },
+      {
+        "id": "10",
+        "name": "jQuery对话框插件",
+        "url": "http://tool.oschina.net/jquery?type=3",
+        "sort": 10,
+        "target": "_blank",
+        "description": "jQuery对话框插件"
+      },
+      {
+        "id": "11",
+        "name": "jQuery提示插件",
+        "url": "http://tool.oschina.net/jquery?type=4",
+        "sort": 11,
+        "target": "_blank",
+        "description": "jQuery提示插件"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "type": "加密/转码工具",
+    "sort": 22,
+    "description": "开源中国在线工具，ostools，加密/转码工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "生成htpasswd",
+        "url": "http://tool.oschina.net/htpasswd",
+        "sort": 1,
+        "target": "_blank",
+        "description": "生成htpasswd"
+      },
+      {
+        "id": "2",
+        "name": "BASE64编码解码",
+        "url": "http://tool.oschina.net/encrypt?type=3",
+        "sort": 2,
+        "target": "_blank",
+        "description": "BASE64编码解码"
+      },
+      {
+        "id": "3",
+        "name": "加密/解密",
+        "url": "http://tool.oschina.net/encrypt",
+        "sort": 3,
+        "target": "_blank",
+        "description": "加密/解密"
+      },
+      {
+        "id": "4",
+        "name": "散列/哈希",
+        "url": "http://tool.oschina.net/encrypt?type=2",
+        "sort": 4,
+        "target": "_blank",
+        "description": "散列/哈希"
+      },
+      {
+        "id": "5",
+        "name": "图片转BASE64编码",
+        "url": "http://tool.oschina.net/encrypt?type=4",
+        "sort": 5,
+        "target": "_blank",
+        "description": "图片转BASE64编码"
+      },
+      {
+        "id": "6",
+        "name": "进制转换",
+        "url": "http://tool.oschina.net/hexconvert",
+        "sort": 6,
+        "target": "_blank",
+        "description": "进制转换"
+      },
+      {
+        "id": "7",
+        "name": "Native转UTF-8",
+        "url": "http://tool.oschina.net/encode?type=2",
+        "sort": 7,
+        "target": "_blank",
+        "description": "Native转UTF-8"
+      },
+      {
+        "id": "8",
+        "name": "Native转ASCII",
+        "url": "http://tool.oschina.net/encode?type=3",
+        "sort": 8,
+        "target": "_blank",
+        "description": "Native转ASCII"
+      },
+      {
+        "id": "9",
+        "name": "URL转码",
+        "url": "http://tool.oschina.net/encode?type=4",
+        "sort": 9,
+        "target": "_blank",
+        "description": "URL转码"
+      },
+      {
+        "id": "10",
+        "name": "生成QrCode",
+        "url": "http://tool.oschina.net/qr",
+        "sort": 10,
+        "target": "_blank",
+        "description": "生成QrCode"
+      },
+      {
+        "id": "11",
+        "name": "QrCode解码",
+        "url": "http://tool.oschina.net/qr?type=2",
+        "sort": 11,
+        "target": "_blank",
+        "description": "QrCode解码"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "type": "其他实用工具",
+    "sort": 23,
+    "description": "开源中国在线工具，ostools，其他实用工具",
+    "items": [
+      {
+        "id": "1",
+        "name": "正则表达式测试",
+        "url": "http://tool.oschina.net/regex",
+        "sort": 1,
+        "target": "_blank",
+        "description": "正则表达式测试"
+      },
+      {
+        "id": "4",
+        "name": "代码格式化",
+        "url": "http://tool.oschina.net/codeformat",
+        "sort": 4,
+        "target": "_blank",
+        "description": "代码格式化"
+      },
+      {
+        "id": "5",
+        "name": "JS/CSS压缩",
+        "url": "http://tool.oschina.net/jscompress",
+        "sort": 5,
+        "target": "_blank",
+        "description": "JS/CSS压缩"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "type": "域名类",
+    "sort": 24,
+    "description": "站长工具，站长之家，SEO相关，域名类",
+    "items": [
+      {
+        "id": "1",
+        "name": "WHOIS查询",
+        "url": "http://whois.chinaz.com/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "站长之家-站长工具提供whois查询工具，汉化版的域名whois查询工具。"
+      },
+      {
+        "id": "2",
+        "name": "DNS查询",
+        "url": "http://tool.chinaz.com/dns/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "通过DNS检测可以快速查出不同的地区不同的网络对你的域名解析速度，及域名DNS信息"
+      },
+      {
+        "id": "3",
+        "name": "过期域名查询",
+        "url": "http://del.chinaz.com/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "过期域名查询"
+      },
+      {
+        "id": "4",
+        "name": "NsLookup查询",
+        "url": "http://tool.chinaz.com/nslookup/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "nslookup可以指定查询的类型,可以查到DNS记录的生存时间还可以指定使用哪个DNS服务器进行解释"
+      },
+      {
+        "id": "5",
+        "name": "域名删除时间",
+        "url": "http://tool.chinaz.com/DomainDel/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "域名删除时间查询可以帮助你查询到你的域名会在什么时候过期，以便提前续费，防止域名被抢注。"
+      },
+      {
+        "id": "6",
+        "name": "备案查询",
+        "url": "http://icp.chinaz.com/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "通过域名可查询该域名是否有备案及相关的ICP备案许可信息。"
+      },
+      {
+        "id": "7",
+        "name": "删除域名归档",
+        "url": "http://del.chinaz.com/type",
+        "sort": 7,
+        "target": "_blank",
+        "description": "过期域名查询工具提供快速查询.com、.net、.org、.cn等过期域名，可按长度、删除日期、双拼等特殊构造订阅过期域名；登录后可收藏所关注域名，并有定时提醒功能。"
+      },
+      {
+        "id": "8",
+        "name": "备案批量查询",
+        "url": "http://icp.chinaz.com/searchs",
+        "sort": 8,
+        "target": "_blank",
+        "description": "通过域名可查询该域名是否有备案及相关的备案信息。"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "type": "IP类",
+    "sort": 25,
+    "description": "站长工具，站长之家，SEO相关，IP类",
+    "items": [
+      {
+        "id": "1",
+        "name": "IP 查询",
+        "url": "http://ip.chinaz.com/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "快速查询用户的IP和浏览器、操作系统。可以批量查询IP地址所在地，可以解析域名的多个IP地址"
+      },
+      {
+        "id": "2",
+        "name": "IP 批量",
+        "url": "http://ip.chinaz.com/ipbatch",
+        "sort": 2,
+        "target": "_blank",
+        "description": "快速查询用户的IP和浏览器、操作系统。可以批量查询IP地址所在地，可以解析域名的多个IP地址"
+      },
+      {
+        "id": "3",
+        "name": "同IP网站查询",
+        "url": "http://s.tool.chinaz.com/same",
+        "sort": 3,
+        "target": "_blank",
+        "description": "通过该工具可以查询指定IP或域名所在服务器的其他网站。"
+      },
+      {
+        "id": "4",
+        "name": "IP WHOIS查询",
+        "url": "http://tool.chinaz.com/ipwhois/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "IP WHOIS简单来说，就是IP的详细信息的数据库（如IP使用人和IP使用人的相关信息等），通过IP WHOIS来实现对IP地址详细信息的查询"
+      },
+      {
+        "id": "5",
+        "name": "端口扫描",
+        "url": "http://tool.chinaz.com/port/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "通过该工具可以扫描常用的端口和指定的端口是否开放。"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "type": "百度相关",
+    "sort": 26,
+    "description": "站长工具，站长之家，SEO相关，百度相关",
+    "items": [
+      {
+        "id": "1",
+        "name": "关键词排名",
+        "url": "http://tool.chinaz.com/keywords",
+        "sort": 1,
+        "target": "_blank",
+        "description": "通过关键词排名查询，可以快速得到当前网站的关键字在Baidu/Google的排名情况。"
+      },
+      {
+        "id": "2",
+        "name": "关键词挖掘",
+        "url": "http://tool.chinaz.com/baidu/words.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "分析关键词的指数历史及存在的长尾关键词，方便关键词优化"
+      },
+      {
+        "id": "3",
+        "name": "反链查询",
+        "url": "http://outlink.chinaz.com/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "查询网站在哪些地方做了外链"
+      },
+      {
+        "id": "4",
+        "name": "权重查询",
+        "url": "http://rank.chinaz.com/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "查询百度权重和百度的关键字排名，查询360权重和360的关键字排名"
+      },
+      {
+        "id": "5",
+        "name": "收录查询",
+        "url": "http://tool.chinaz.com/baidu/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "查询网站在百度的收录情况，可以查询的时间范围是1天、1星期，1月，1年"
+      },
+      {
+        "id": "6",
+        "name": "收录率查询",
+        "url": "http://tool.chinaz.com/baidu/entry",
+        "sort": 6,
+        "target": "_blank",
+        "description": "查询网站页面在百度的收录状态及百度快照时间。"
+      },
+      {
+        "id": "7",
+        "name": "关键词优化分析",
+        "url": "http://tool.chinaz.com/kwevaluate",
+        "sort": 7,
+        "target": "_blank",
+        "description": "帮助用户估算优化该关键词的难易程度及优化成本"
+      },
+      {
+        "id": "8",
+        "name": "Meta信息挖掘",
+        "url": "http://tool.chinaz.com/baidu/metadig.aspx",
+        "sort": 8,
+        "target": "_blank",
+        "description": "设置MEAT关键字，提高网站各大搜索引擎的收录"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "type": "测速/监控",
+    "sort": 27,
+    "description": "站长工具，站长之家，SEO相关，测速/监控",
+    "items": [
+      {
+        "id": "1",
+        "name": "PING检测",
+        "url": "http://ping.chinaz.com/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "通过该工具可以多个地点Ping服务器以检测服务器响应速度，同时也可以测试网站的响应速度，解析时间，服务器连接时间，下载速度，http状态，GZIP压缩，文件大小等信息，目前服务器达到将近50台，可以完全测试各地点的网络状况。"
+      },
+      {
+        "id": "2",
+        "name": "网站被黑检测",
+        "url": "http://s.tool.chinaz.com/tools/webcheck.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "通过该检测可以查出网站是否被做了跳转或者禁止搜索引擎索引，被做跳转或者禁止索引的网站搜索引擎无法正确获取到你网站的信息进行索引导致被K站。"
+      },
+      {
+        "id": "3",
+        "name": "国内网站测速",
+        "url": "http://tool.chinaz.com/speedtest.aspx",
+        "sort": 3,
+        "target": "_blank",
+        "description": "国内网站速度检测的首选，遍及国内各省几十个网站速度检测点，包括BGP双线、多线、电信、网通、联通、移动、长城宽带等线路，即时测试网站在全国各地的打开速度。"
+      },
+      {
+        "id": "4",
+        "name": "网站历史记录",
+        "url": "http://tool.chinaz.com/history/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "通过本工具可以查询网站各大搜索引擎的收录及反链数并可导出数据。"
+      },
+      {
+        "id": "5",
+        "name": "海外网站测速",
+        "url": "http://tool.chinaz.com/speedworld.aspx",
+        "sort": 5,
+        "target": "_blank",
+        "description": "国际网站速度检测的首选，遍及国际各省几十个网站速度检测点，即时测试网站在全国各地的打开速度。"
+      },
+      {
+        "id": "6",
+        "name": "SEO历史记录",
+        "url": "http://tool.chinaz.com/history/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "通过本工具可以查询网站各大搜索引擎的收录及反链数并可导出数据。"
+      },
+      {
+        "id": "7",
+        "name": "国内网速对比",
+        "url": "http://tool.chinaz.com/speedcom.aspx",
+        "sort": 7,
+        "target": "_blank",
+        "description": "国内网站速度检测的首选，遍及国内各省几十个网站速度检测点，包括BGP双线、多线、电信、网通、联通、移动、长城宽带等线路，即时测试网站在全国各地的打开速度。"
+      },
+      {
+        "id": "8",
+        "name": "ALexa历史报告",
+        "url": "http://alexa.chinaz.com/alexa_history.aspx",
+        "sort": 8,
+        "target": "_blank",
+        "description": "Alexa网站排名查询专业提供中文网站Alexa排名查询、网站流量查询、网站访问量查询、网站页面浏览量查询服务。"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "type": "网页相关",
+    "sort": 28,
+    "description": "站长工具，站长之家，SEO相关，网页相关",
+    "items": [
+      {
+        "id": "1",
+        "name": "网页检测",
+        "url": "http://tool.chinaz.com/webdetect/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "提供最全的网站信息检测工具"
+      },
+      {
+        "id": "2",
+        "name": "网站安全检测",
+        "url": "http://tool.chinaz.com/webscan",
+        "sort": 2,
+        "target": "_blank",
+        "description": "网站安全检测为站长免费提供了网站漏洞检测、网站挂马实时监控、网站篡改实时监控等服务"
+      },
+      {
+        "id": "3",
+        "name": "死链检测",
+        "url": "http://tool.chinaz.com/Links/",
+        "sort": 3,
+        "target": "_blank",
+        "description": "可以查询特定页面是否存在死链接，帮助用户快速排查死链接更利于SEO优化。"
+      },
+      {
+        "id": "4",
+        "name": "网站GZIP压缩",
+        "url": "http://tool.chinaz.com/Gzips/",
+        "sort": 4,
+        "target": "_blank",
+        "description": "开启GZIP后会将输出到用户浏览器的数据进行压缩的处理，提高浏览速度，本工具教你如何开启及测试GZIP是否设置成功。"
+      },
+      {
+        "id": "5",
+        "name": "网页状态检测",
+        "url": "http://tool.chinaz.com/pagestatus/",
+        "sort": 5,
+        "target": "_blank",
+        "description": "查询页面返回的状态，比如返回404表示页面不存在，返回500表示内部服务出错，返回301表示资源永久性跳转。"
+      },
+      {
+        "id": "6",
+        "name": "关键词密度分析",
+        "url": "http://tool.chinaz.com/Tools/Density.aspx",
+        "sort": 6,
+        "target": "_blank",
+        "description": "通过本工具可以快速检测页面关键词出现的数量和密度，更适合搜索引擎蜘蛛的搜索。"
+      },
+      {
+        "id": "7",
+        "name": "META信息查询",
+        "url": "http://tool.chinaz.com/Tools/MetaCheck.aspx",
+        "sort": 7,
+        "target": "_blank",
+        "description": "通过本工具可以快速检测网页的META标签，分析标题、关键词、描述等是否有利于搜索引擎收录。"
+      },
+      {
+        "id": "8",
+        "name": "查看网页源代码",
+        "url": "http://s.tool.chinaz.com/tools/pagecode.aspx",
+        "sort": 8,
+        "target": "_blank",
+        "description": "通过模拟蜘蛛来查看网页源代码，可以查出页面蜘蛛访问是否正常。"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "type": "配色/在线汉字",
+    "sort": 29,
+    "description": "站长工具，站长之家，其他工具相关，配色/在线汉字",
+    "items": [
+      {
+        "id": "1",
+        "name": "中日传统色彩",
+        "url": "http://tool.chinaz.com/Tools/cj",
+        "sort": 1,
+        "target": "_blank",
+        "description": "中国传统色彩是各个时期的政治、经济、社会生活、民俗风情,以及思想观念和审美情趣的反映,内涵丰富,应用范围极其广泛。日本的传统颜色也成为“和色”，本站列出色卡456种。日本人对颜色的划分十分精细，颜色的名称十分的有趣。常被日本设计师用于传统的艺术设计和手工艺设计中。"
+      },
+      {
+        "id": "2",
+        "name": "拼音字典",
+        "url": "http://tool.chinaz.com/Tools/pinyindictionary.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "根据你所输入的中文，输出相应的拼音。"
+      },
+      {
+        "id": "3",
+        "name": "传图识色",
+        "url": "http://tool.chinaz.com/Tools/img",
+        "sort": 3,
+        "target": "_blank",
+        "description": "只需上传图片就能识别图片上的色板，简单易用。"
+      },
+      {
+        "id": "4",
+        "name": "汉字拼音",
+        "url": "http://tool.chinaz.com/Tools/word_spell.aspx",
+        "sort": 4,
+        "target": "_blank",
+        "description": "该工具可以把你输入的中文按要求翻译成拼音。"
+      },
+      {
+        "id": "5",
+        "name": "WEB安全色",
+        "url": "http://tool.chinaz.com/Tools/web",
+        "sort": 5,
+        "target": "_blank",
+        "description": "为了尽量让用户看到色彩相同的网页，请尽量使用下面的216色。"
+      },
+      {
+        "id": "6",
+        "name": "英文大小写",
+        "url": "http://tool.chinaz.com/Tools/lowercase-uppercase.aspx",
+        "sort": 6,
+        "target": "_blank",
+        "description": "大小写转换工具可以实现人民币数字大写转换，也可以实现单词、段落、语句以及文章的英文大小写转换，可以将大写字母全部转换成小写字母，也可以将小写字母全部转换为大写字母，还可以实现首字母大写转换。"
+      },
+      {
+        "id": "7",
+        "name": "网页常用色彩",
+        "url": "http://tool.chinaz.com/Tools/use",
+        "sort": 7,
+        "target": "_blank",
+        "description": "网页颜色搭配表及颜色搭配,技巧网站色彩搭配,配色设计"
+      },
+      {
+        "id": "8",
+        "name": "繁/简/火星文",
+        "url": "http://tool.chinaz.com/Tools/gb_big.aspx",
+        "sort": 8,
+        "target": "_blank",
+        "description": "通过本工具可以把文字在简体、繁体、火星文之间互相转换。"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "type": "WEB相关",
+    "sort": 30,
+    "description": "站长工具，站长之家，其他工具相关，WEB相关",
+    "items": [
+      {
+        "id": "1",
+        "name": "Html标签检测",
+        "url": "http://tool.chinaz.com/htmlcheck.aspx",
+        "sort": 1,
+        "target": "_blank",
+        "description": "检测你网页中是否有不符合规范的HTML标签，以便及时更改，更利于搜索引擎蜘蛛的检索。"
+      },
+      {
+        "id": "2",
+        "name": "Http接口测试",
+        "url": "http://tool.chinaz.com/Tools/httptest.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "在线工具,本工具提供任意接口的HTTP GET和POST测试，并且提供测试返回值，接口返回响应时间、页面大小、响应状态及页面信息。"
+      },
+      {
+        "id": "3",
+        "name": "Html特殊符号",
+        "url": "http://tool.chinaz.com/Tools/htmlchar.aspx",
+        "sort": 3,
+        "target": "_blank",
+        "description": "HTML中一些无法打出来的符号可以用相应的代码进行代替显示，以下对照表提供了一些HTML特殊符号相应的代码。"
+      },
+      {
+        "id": "4",
+        "name": "正则表达式生成",
+        "url": "http://tool.chinaz.com/Tools/regexgenerate",
+        "sort": 4,
+        "target": "_blank",
+        "description": "该工具主要针对程序开发人员，通过该工具可以快速准备的判断所写的正则是否能正确匹配相应的字符"
+      },
+      {
+        "id": "5",
+        "name": "Css在线编辑",
+        "url": "http://tool.chinaz.com/Tools/cssdesigner.aspx",
+        "sort": 5,
+        "target": "_blank",
+        "description": "Css在线编辑器"
+      },
+      {
+        "id": "6",
+        "name": "网站安全检测",
+        "url": "http://tool.chinaz.com/webscan",
+        "sort": 6,
+        "target": "_blank",
+        "description": "网站安全检测为站长免费提供了网站漏洞检测、网站挂马实时监控、网站篡改实时监控等服务"
+      },
+      {
+        "id": "7",
+        "name": "查看网页源代码",
+        "url": "http://s.tool.chinaz.com/tools/pagecode.aspx",
+        "sort": 7,
+        "target": "_blank",
+        "description": "通过模拟蜘蛛来查看网页源代码，可以查出页面蜘蛛访问是否正常。"
+      },
+      {
+        "id": "8",
+        "name": "在线字符统计",
+        "url": "http://tool.chinaz.com/Tools/wordcounter",
+        "sort": 8,
+        "target": "_blank",
+        "description": "在线工具，提供一块可以对英文论文的单词进行统计，统计的内容包括：单词数，字符数，句子数，段落数，关键词密度。"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "type": "加密解密",
+    "sort": 31,
+    "description": "站长工具，站长之家，其他工具相关，加密解密",
+    "items": [
+      {
+        "id": "1",
+        "name": "MD5加密",
+        "url": "http://tool.chinaz.com/Tools/md5.aspx",
+        "sort": 1,
+        "target": "_blank",
+        "description": "本工具可以提供32位，16位等MD5加密。"
+      },
+      {
+        "id": "2",
+        "name": "Js代码混淆",
+        "url": "http://tool.chinaz.com/Tools/jscodeconfusion.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "通过本工具可以对JS代码进行混淆，起到保护JS代码的作用。"
+      },
+      {
+        "id": "3",
+        "name": "Escape加/解密",
+        "url": "http://tool.chinaz.com/Tools/escape.aspx",
+        "sort": 3,
+        "target": "_blank",
+        "description": "Escape在线加密解密"
+      },
+      {
+        "id": "4",
+        "name": "Js/Html格式化",
+        "url": "http://tool.chinaz.com/Tools/jsformat.aspx",
+        "sort": 4,
+        "target": "_blank",
+        "description": "可以对JS，HTML进行格式化排版，整齐的进行显示。"
+      },
+      {
+        "id": "5",
+        "name": "Url16进制",
+        "url": "http://tool.chinaz.com/Tools/urlcrypt.aspx",
+        "sort": 5,
+        "target": "_blank",
+        "description": "把URL网址转换成16进制代码形式，加密后可直接访问。"
+      },
+      {
+        "id": "6",
+        "name": "Js混淆压缩",
+        "url": "http://tool.chinaz.com/js.aspx",
+        "sort": 6,
+        "target": "_blank",
+        "description": "提供对js的排版（格式化），混淆，压缩，加密等功能"
+      },
+      {
+        "id": "7",
+        "name": "Url加/解密",
+        "url": "http://tool.chinaz.com/Tools/thunder_flashget.aspx",
+        "sort": 7,
+        "target": "_blank",
+        "description": "提供在线文本加密/解密，散列，提供SHA1、MD5、HMAC、AES、RC4、Rabbit、Base64等多种算法。"
+      },
+      {
+        "id": "8",
+        "name": "文字加/解密",
+        "url": "http://tool.chinaz.com/Tools/textencrypt.aspx",
+        "sort": 8,
+        "target": "_blank",
+        "description": "提供在线文本加密/解密，提供AES、DES、RC4、Rabbit、TripleDes等多种算法。"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "type": "单位换算",
+    "sort": 32,
+    "description": "站长工具，站长之家，其他工具相关，单位换算",
+    "items": [
+      {
+        "id": "1",
+        "name": "角度换算",
+        "url": "http://tool.chinaz.com/Tools/angle",
+        "sort": 1,
+        "target": "_blank",
+        "description": "用度(°)、分(′)、秒(″)来测量角的大小的制度叫做角度制。"
+      },
+      {
+        "id": "2",
+        "name": "时间换算",
+        "url": "http://tool.chinaz.com/Tools/time",
+        "sort": 2,
+        "target": "_blank",
+        "description": "时间转换"
+      },
+      {
+        "id": "3",
+        "name": "热量换算",
+        "url": "http://tool.chinaz.com/Tools/heat",
+        "sort": 3,
+        "target": "_blank",
+        "description": "热量换算"
+      },
+      {
+        "id": "4",
+        "name": "长度换算",
+        "url": "http://tool.chinaz.com/Tools/length",
+        "sort": 4,
+        "target": "_blank",
+        "description": "长度换算"
+      },
+      {
+        "id": "5",
+        "name": "面积换算",
+        "url": "http://tool.chinaz.com/Tools/area",
+        "sort": 5,
+        "target": "_blank",
+        "description": "面积换算"
+      },
+      {
+        "id": "6",
+        "name": "计算器",
+        "url": "http://tool.chinaz.com/Tools/calculator",
+        "sort": 6,
+        "target": "_blank",
+        "description": "计算器,科学计算器,公式计算器,在线计算,函数计算"
+      },
+      {
+        "id": "7",
+        "name": "数据存储",
+        "url": "http://tool.chinaz.com/Tools/datastore",
+        "sort": 7,
+        "target": "_blank",
+        "description": "数据存储"
+      },
+      {
+        "id": "8",
+        "name": "子网掩码",
+        "url": "http://tool.chinaz.com/Tools/subnetmask",
+        "sort": 8,
+        "target": "_blank",
+        "description": "子网掩码(subnet mask)是每个使用互联网的人必须要掌握的基础知识，只有掌握它，才能够真正理解TCP/IP协议的设置。"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "type": "编码转换",
+    "sort": 33,
+    "description": "站长工具，站长之家，其他工具相关，编码转换",
+    "items": [
+      {
+        "id": "1",
+        "name": "Unicode",
+        "url": "http://tool.chinaz.com/Tools/unicode.aspx",
+        "sort": 1,
+        "target": "_blank",
+        "description": "本工具是Unicode编码转换，为您提供ASCII与Unicode互转，Unicode与中文互转，在文本框里输入要转换的内容，然后点击要转换的类型按钮，转换完成后即可看到对应的内容。"
+      },
+      {
+        "id": "2",
+        "name": "Html/UBB",
+        "url": "http://tool.chinaz.com/Tools/html_ubb.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "可以把html代码转换成论坛格式的代码。"
+      },
+      {
+        "id": "3",
+        "name": "Unix时间戳",
+        "url": "http://tool.chinaz.com/Tools/unixtime.aspx",
+        "sort": 3,
+        "target": "_blank",
+        "description": "Unix时间戳转换可以把Unix时间转成北京时间。"
+      },
+      {
+        "id": "4",
+        "name": "UrlEncode",
+        "url": "http://tool.chinaz.com/Tools/urlencode.aspx",
+        "sort": 4,
+        "target": "_blank",
+        "description": "为了让包含中文的URL可以使用，您可以使用本工具对中文进行UrlEncode编码。"
+      },
+      {
+        "id": "5",
+        "name": "NATIVE/ASCII",
+        "url": "http://tool.chinaz.com/Tools/native_ascii.aspx",
+        "sort": 5,
+        "target": "_blank",
+        "description": "主要用于各类代码中各类本地字符的Unicode转换。开头+数字的编码是叫Unicode编码，原理:获得输入框里的值，然后逐个转换为unicode编码（这个返回值是 0 – 65535 之间的整数），unicode转化为16进制,再添加上前缀。"
+      },
+      {
+        "id": "6",
+        "name": "二维码生成",
+        "url": "http://tool.chinaz.com/qrcode",
+        "sort": 6,
+        "target": "_blank",
+        "description": "该工具可以快速生成二维码,同时可以根据生成的二维码图片解码出相应的原始数据。"
+      },
+      {
+        "id": "7",
+        "name": "UTF-8编码",
+        "url": "http://tool.chinaz.com/Tools/utf-8.aspx",
+        "sort": 7,
+        "target": "_blank",
+        "description": "UTF-8编码在线转工具可以帮助你把中文转换成UTF-8编码，同时也支持把UTF-8编码过的还原成中文。"
+      },
+      {
+        "id": "8",
+        "name": "HTML/JS转换",
+        "url": "http://tool.chinaz.com/tools/html_js.aspx",
+        "sort": 8,
+        "target": "_blank",
+        "description": "可以把html内容转换成js输出，也可以把JS内容转成HTML输出。"
+      }
+    ]
   }
 ]
