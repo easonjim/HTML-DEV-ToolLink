@@ -7,9 +7,18 @@
 		<script type="text/javascript" src="../static/vendor/jquery-1.5/jquery-1.5.min.js"></script>
 		<script type="text/javascript" src="../static/js/mod/mod_popup.js"></script>
         <script type="text/template" id="tool_template_new_datasource_content">
-            <li class="-x-grid" data-msgtype="ONLINE_URL" data-usefile="0" data-url="<#=data.url#>">
-                <b></b><a target="<#=data.target#>" title="<#=data.name#>【<#=data.description#>】（<#=data.url#>）"><span><#=data.name#></span></a>
-            </li>
+            <# for ( var i = 0; i < data.length; i++ ) { #>
+                <li class="-x-grid" data-msgtype="ONLINE_TYPE" data-usefile="0">
+                    <b></b><a title="<#=data[i].type#>【<#=data[i].description#>】"><span><#=data[i].type#></span></a>
+                    <# for ( var j = 0; j < data[i].items.length; j++ ) { #>
+                        <ul class="sub-toollink-function-list">
+                            <li class="-x-grid" data-msgtype="ONLINE_URL" data-usefile="0" data-url="<#=data[i].items[j].url#>">
+                                <b></b><a target="<#=data[i].items[j].target#>" title="<#=data[i].items[j].name#>【<#=data[i].items[j].description#>】（<#=data[i].items[j].url#>）"><span><#=data[i].items[j].name#></span></a>
+                            </li>
+                        </ul>
+                    <# } #>
+                </li>
+            <# } #>
         </script>
     </head>
     <body>

@@ -76,6 +76,15 @@ body {
     padding: 0 5px;
     color:#f00;
 }
+.toollink-opt-content .right ul li input.sort {
+    width: 50px;
+    margin-right: 0px;
+}
+.toollink-opt-content .right ul li input.alias {
+    width: 100px;
+    margin-right: 0px;
+}
+
 .toollink-opt-content .right ul li a {
     color:#000;
     text-decoration:none;

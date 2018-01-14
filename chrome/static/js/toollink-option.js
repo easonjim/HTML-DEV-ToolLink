@@ -214,12 +214,18 @@ jsoft.toollinkOption = (function () {
         // 添加配置项
         $('input[type=checkbox][name=checkbox_tool]').each(function () {
             if ($(this).is(':checked')) {
-                // 构造对象，由于缓存只支持String，所以只能转，获取是需要使用JSON.parse获取对象
+                // 构造对象，由于缓存只支持String，所以只能转，获取时需要使用JSON.parse获取对象
                 var obj = JSON.stringify({
                     url: $(this).next().children().attr('href'),
                     target: $(this).next().children().attr('target'),
                     name: $(this).next().children().attr('name'),
-                    description: $(this).next().children().attr('description')
+                    description: $(this).next().children().attr('description'),
+                    sort: $(this).next().children().attr('sort'),
+                    id: $(this).next().children().attr('id'),
+                    type_id: $(this).parent().children().first().attr('id'),
+                    type_name: $(this).parent().children().first().attr('type'),
+                    type_description: $(this).parent().children().first().attr('description'),
+                    type_sort: $(this).parent().children().first().attr('sort')
                 });
                 var key = $(this).next().children().attr('href');
                 var item = {};
