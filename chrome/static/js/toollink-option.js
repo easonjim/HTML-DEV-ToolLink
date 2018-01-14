@@ -290,7 +290,7 @@ jsoft.toollinkOption = (function () {
             // 清除所有页面上的配置项
             $('#opt_start #opt_form_start ul li:last fieldset fieldset').remove();
             // 重新初始化配置项
-            _initDatasource();
+            _initDatasource(_getOptionItemByBgPage(optionItems));
         });
 
         // 绑定数据源URL事件
@@ -373,7 +373,7 @@ jsoft.toollinkOption = (function () {
                         if (data != null) {
                             var outhtml = template2_setdata($('#tool_template_content').html(), data[i]);
                             // HTML结构特殊处理
-                            if (i == 0) {
+                            if (count == 0 && i == 0) {
                                 $('#opt_start #opt_form_start ul li:last fieldset legend').after(outhtml);
                             } else {
                                 $('#opt_start #opt_form_start ul li:last fieldset:last').after(outhtml);
