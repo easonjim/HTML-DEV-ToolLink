@@ -82,6 +82,7 @@ $(function () {
                         description: obj.description,
                         sort: obj.sort
                     });
+                    break;
                 } else if (i == (len - 1)) {
                     // 没有，则新建一个类别，再增加一个子项
                     var items = [];
