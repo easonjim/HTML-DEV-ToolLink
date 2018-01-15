@@ -92,22 +92,6 @@
         "sort": 5,
         "target": "_blank",
         "description": "百度"
-      },
-      {
-        "id": "6",
-        "name": "ishadowsocks",
-        "url": "http://isx.yt/",
-        "sort": 6,
-        "target": "_blank",
-        "description": "shadowsocks"
-      },
-      {
-        "id": "7",
-        "name": "shadowsocks8",
-        "url": "http://ss8.pm/",
-        "sort": 7,
-        "target": "_blank",
-        "description": "shadowsocks"
       }
     ]
   },
