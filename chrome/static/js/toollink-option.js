@@ -322,7 +322,9 @@ jsoft.toollinkOption = (function () {
      */
     var _initDatasourceUrl = function () {
         // 清除所有数据源输入框
-        $('#opt_start #opt_form_start ul li fieldset div.datasource').remove();
+        if (optionItemUrls.length > 0) {
+            $('#opt_start #opt_form_start ul li fieldset div.datasource').remove();
+        }
         $.each(optionItemUrls, function (i, item) {
             for (var key in item) {
                 var url = item[key];
