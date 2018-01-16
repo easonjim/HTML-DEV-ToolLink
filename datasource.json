@@ -251,7 +251,7 @@
     "id": "9",
     "type": "JSON",
     "sort": 9,
-    "description": "JSON相关工具",
+    "description": "bejson-JSON相关工具",
     "items": [
       {
         "id": "1",
@@ -363,7 +363,7 @@
     "id": "10",
     "type": "编码/加密",
     "sort": 10,
-    "description": "编码/加密工具",
+    "description": "bejson-编码/加密工具",
     "items": [
       {
         "id": "1",
@@ -451,7 +451,7 @@
     "id": "11",
     "type": "格式化",
     "sort": 11,
-    "description": "格式化工具",
+    "description": "bejson-格式化工具",
     "items": [
       {
         "id": "1",
@@ -491,7 +491,7 @@
     "id": "12",
     "type": "网络",
     "sort": 12,
-    "description": "网络工具",
+    "description": "bejson-网络工具",
     "items": [
       {
         "id": "1",
@@ -571,7 +571,7 @@
     "id": "13",
     "type": "前端",
     "sort": 13,
-    "description": "前端工具",
+    "description": "bejson-前端工具",
     "items": [
       {
         "id": "1",
@@ -763,7 +763,7 @@
     "id": "14",
     "type": "后端",
     "sort": 14,
-    "description": "后端工具",
+    "description": "bejson-后端工具",
     "items": [
       {
         "id": "1",
@@ -819,7 +819,7 @@
     "id": "15",
     "type": "转换",
     "sort": 15,
-    "description": "转换工具",
+    "description": "bejson-转换工具",
     "items": [
       {
         "id": "1",
@@ -1027,7 +1027,7 @@
     "id": "16",
     "type": "测试",
     "sort": 16,
-    "description": "测试工具",
+    "description": "bejson-测试工具",
     "items": [
       {
         "id": "1",
@@ -1051,7 +1051,7 @@
     "id": "17",
     "type": "API",
     "sort": 17,
-    "description": "API",
+    "description": "bejson-API",
     "items": [
       {
         "id": "1",
@@ -1083,7 +1083,7 @@
     "id": "18",
     "type": "平台工具",
     "sort": 18,
-    "description": "平台工具",
+    "description": "bejson-平台工具",
     "items": [
       {
         "id": "1",
@@ -2284,6 +2284,78 @@
         "sort": 8,
         "target": "_blank",
         "description": "可以把html内容转换成js输出，也可以把JS内容转成HTML输出。"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "type": "开源中国API文档库",
+    "sort": 34,
+    "description": "开源中国常用API文档库，SDK文档，MySQL中文文档",
+    "items": [
+      {
+        "id": "1",
+        "name": "API DOC",
+        "url": "http://tool.oschina.net/apidocs",
+        "sort": 1,
+        "target": "_blank",
+        "description": "常用API文档库"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "type": "文本比较工具",
+    "sort": 35,
+    "description": "两个文本比较差异",
+    "items": [
+      {
+        "id": "1",
+        "name": "SOJSON文本比较",
+        "url": "http://www.sojson.com/compare.html",
+        "sort": 1,
+        "target": "_blank",
+        "description": "SOJSON文本比较"
+      },
+      {
+        "id": "2",
+        "name": "文本比较工具",
+        "url": "https://wenbenbijiao.renrensousuo.com/",
+        "sort": 2,
+        "target": "_blank",
+        "description": "文本比较工具"
+      },
+      {
+        "id": "3",
+        "name": "在线文本差异比较",
+        "url": "http://www.jq22.com/textDifference",
+        "sort": 3,
+        "target": "_blank",
+        "description": "在线文本差异比较"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "type": "在线工具网站",
+    "sort": 36,
+    "description": "在线工具网站",
+    "items": [
+      {
+        "id": "1",
+        "name": "SOJSON",
+        "url": "http://www.sojson.com/",
+        "sort": 1,
+        "target": "_blank",
+        "description": "SOJSON全家桶"
+      },
+      {
+        "id": "2",
+        "name": "站长之家在线工具列表",
+        "url": "http://tool.chinaz.com/map.aspx",
+        "sort": 2,
+        "target": "_blank",
+        "description": "站长之家全家桶"
       }
     ]
   }
