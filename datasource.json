@@ -188,6 +188,14 @@
         "sort": 5,
         "target": "_blank",
         "description": "Linux命令大全"
+      },
+      {
+        "id": "6",
+        "name": "Linux命令大全",
+        "url": "http://linux.51yip.com/",
+        "sort": 6,
+        "target": "_blank",
+        "description": "Linux命令大全"
       }
     ]
   },
