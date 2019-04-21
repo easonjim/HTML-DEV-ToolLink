@@ -1596,6 +1596,30 @@
         "sort": 5,
         "target": "_blank",
         "description": "JS/CSS压缩"
+      },
+      {
+        "id": "6",
+        "name": "JMESPath",
+        "url": "https://www.rdtoc.com/tools/jmespath",
+        "sort": 6,
+        "target": "_blank",
+        "description": "JMESPath提取工具"
+      },
+      {
+        "id": "7",
+        "name": "JSONPath",
+        "url": "https://www.rdtoc.com/tools/jsonpath",
+        "sort": 7,
+        "target": "_blank",
+        "description": "JSONPath提取工具"
+      },
+      {
+        "id": "8",
+        "name": "TableConvert",
+        "url": "https://tableconvert.com/",
+        "sort": 8,
+        "target": "_blank",
+        "description": "强大的表格转换工具，HTML转换SQL、CSV、Markdown、SQL、JSON、LaTeX和Text格式"
       }
     ]
   },
